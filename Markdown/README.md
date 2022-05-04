@@ -12,3 +12,7 @@ Ce dossier contient le brouillon des fichiers en Markdown qui pourront directeme
 
 Bibliographie : sous quel format ? 
 Passage par Zenodo puis export ? 
+
+## HELP
+
+La fiche `markdown-cheatsheet.pdf` rappelle les principales règles de syntaxe de Markdown.
