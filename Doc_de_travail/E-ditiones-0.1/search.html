@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Recherche</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png"/>
+        <title data-template="config:app-title"/>
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="resources/css/custom-theme-Editiones.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+
+        <style>
+            main {
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+            }
+
+            .search-panel {
+                flex: 1 1;
+                margin: 0 20px;
+            }
+
+            .search-panel paper-card {
+                width: 100%;
+            }
+
+            .targets paper-checkbox {
+                margin-top: 10px;
+            }
+
+            #results {
+                flex: 2 1;
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 140px);
+                padding-bottom: 80px;
+            }
+
+            #results paper-card {
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 8px;
+            }
+
+            #results header {
+                display: flex;
+                justify-content: flex-start;
+            }
+            #results .count {
+                margin-right: 20px;
+                font-weight: bold;
+            }
+            .breadcrumb:link, .breadcrumb:visited {
+                text-decoration: none;
+                color: var(--paper-grey-600);
+            }
+            .breadcrumb:before {
+                content: '&gt;';
+                padding: 0 8px;
+                font-weight: bold;
+            }
+            .breadcrumb:first-child::before {
+                content: '';
+            }
+            .matches {
+                display: table;
+                margin-left: 20px;
+                margin-top: 10px;
+                font: var(--pb-results-body-font);
+            }
+            .matches p {
+                display: table-row;
+            }
+            .matches p * {
+                display: table-cell;
+                padding: 4px 8px;
+            }
+
+            .hi {
+                display: block;
+            }
+
+            #facets h3 {
+                display: flex;
+                flex-direction: row;
+                align-self: center;
+                justify-content: space-between;
+            }
+
+            #facets h3 paper-checkbox {
+                font-size: 85%;
+            }
+
+            #facets table td:nth-child(2) {
+                color: #808080;
+                text-align: right;
+                padding-left: 1em;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                    <app-toolbar>
+                        <pb-paginate per-page="10" range="5" subscribe="results"/>
+                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
+                    </app-toolbar>
+                </app-header>
+
+                <main>
+                    <pb-load id="results" url="templates/search-results.html" emit="results"/>
+                    <div class="search-panel">
+                        <paper-card>
+                            <div class="card-content">
+                                <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                                    <div class="targets">
+                                        <paper-checkbox name="field" value="text">Contenu du texte</paper-checkbox>
+                                        <paper-checkbox name="field" value="head">Contenu des titres</paper-checkbox>
+                                    </div>
+                                    <pb-custom-form id="facets" url="modules/facets.xql" subscribe="results" event="pb-results-received" emit="search"/>
+                                </pb-search>
+                            </div>
+                        </paper-card>
+                    </div>
+                </main>
+            </app-header-layout>
+            <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+        </pb-page>
+        <script>
+            const facets = document.getElementById('facets');
+            if (facets) {
+                facets.addEventListener('pb-custom-form-loaded', function(ev) {
+                    const elems = ev.detail.querySelectorAll('.facet');
+                    elems.forEach(facet =&gt; {
+                        facet.addEventListener('change', () =&gt; {
+                            const table = facet.closest('table');
+                            if (table) {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
+                                    if (nested != facet) {
+                                        nested.checked = false;
+                                    }
+                                });
+                            }
+                            facets._submit();
+                        });
+                    });
+                });
+            }
+        </script>
+    </body>
+</html>

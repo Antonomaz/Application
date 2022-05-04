@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png"/>
+    <title data-template="config:app-title">Texte</title>
+    <meta name="description" content="E-ditiones"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/> 
+    <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <custom-style>
+      <style>
+        body {
+          --pb-view-height: calc(100vh - 192px);
+        }
+        .content-body {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          padding: 0 20px;
+          padding-bottom: 80px;
+        }
+        .metadata {
+          width: 100%;
+          padding: 0 20px 20px;
+        }
+
+        #view1 {
+          flex: 3 0;
+          max-width: 60vw;
+          margin: 8px 16px;
+          height: var(--pb-view-height);
+          overflow: auto;
+        }
+        .metadata pb-view {
+          font: var(--pb-base-font);
+        }
+        .metadata h3 pb-view {
+          font-family: var(--pb-heading-font-family);
+          font-weight: var(--pb-heading-font-weight);
+        }
+        .content-body pb-facsimile {
+          flex: 1 1;
+          height: var(--pb-view-height);
+          overflow: auto;
+        }
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+      <pb-document id="document1" data-template="pages:pb-document"/>
+      <app-drawer-layout force-narrow="force-narrow">
+        <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+        <!-- Cette partie concerne tous les outils de la partie supérieure de la page. -->
+        <app-header-layout>
+          <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" condenses="condenses">
+            <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+            <app-toolbar class="toolbar" sticky="sticky">
+              <paper-button id="tocToggle" class="toc-toggle" raised="raised">
+                <a href="?template=presentation.html" data-template="pages:parse-params">Retour à la notice de l'oeuvre</a>
+              </paper-button>
+              <!-- Cette partie permet de rafraîchir la page et l'ODD - uniquement si l'on est connecté. -->
+              <pb-restricted login="login">
+                <pb-ajax subscribe="transcription" emit="transcription" url="${app}/modules/lib/regenerate.xql" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
+                  <h3 slot="title">
+                    <pb-i18n key="menu.admin.recompile"/>
+                  </h3>
+                  <paper-icon-button icon="icons:refresh"/>
+                </pb-ajax>
+              </pb-restricted>
+              <!-- Ces deux boutons permettent de (dé)zoomer le texte -->
+              <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+              <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
+              <!-- Ces deux boutons permettent de naviguer entre les différentes pages affichées. -->
+              <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
+                <paper-icon-button icon="icons:chevron-left"/>
+              </pb-navigation>
+              <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
+                <paper-icon-button icon="icons:chevron-right"/>
+              </pb-navigation>
+            </app-toolbar>
+          </app-header>
+          <!-- Cette partie concerne le haut de la page. -->
+          <section class="breadcrumbs">
+            <h2 class="text-center">
+              <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single">
+                <pb-param name="mode" value="title"/>
+              </pb-view>
+            </h2>
+          </section>
+          <!-- Cette partie traite du texte à afficher. -->
+          <main class="content-body">
+            <!-- pb-grid permet d'afficher un menu déroulant et de sélectionner le texte que l'on souhaite afficher. -->
+            <pb-grid id="grid" panels="[0]" subscribe="transcription" emit="transcription">
+              <template>
+                <pb-panel emit="transcription">
+                  <template title="Fac-similé">
+                  <pb-view src="document1" view="single">
+                    <pb-param name="mode" value="facsimile"/>
+                  </pb-view>
+                  </template>
+                </pb-panel>
+              </template>
+              <pb-panel emit="transcription">
+                <template title="Texte">
+                  <pb-view id="view1" src="document1" xpath="//text[ends-with(@xml:id, '-2')]" subscribe="transcription" emit="transcription" view="page"/>
+                </template>
+              </pb-panel>
+            </pb-grid>
+            <br/>
+          </main>
+        </app-header-layout>
+      </app-drawer-layout>
+        <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+    </pb-page>
+    <div class="splash"/>
+  </body>
+</html>

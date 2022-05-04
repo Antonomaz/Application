@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>A propos</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/> 
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/custom-theme-Editiones.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+  </head>
+
+  <body>
+    <pb-page>
+      <app-drawer-layout force-narrow="force-narrow">
+        <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+        <!-- Cette partie concerne tous les outils de la partie supérieure de la page. -->
+        <app-header-layout>
+          <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+            <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+          </app-header>
+        </app-header-layout>
+      </app-drawer-layout>
+
+      <div class="text-justify container">
+      <div class="Float_gauche">
+        <h1 class="text-center">À propos du projet</h1>
+
+        Le projet E-Ditiones a pour objectif la constitution d'un corpus de
+        manuscrits et d'imprimés du XVIIe siècle français. Le
+        <a href="https://github.com/e-ditiones" target="_blank">GitHub</a> du
+        projet présente le corpus ainsi que les outils utilisés pour
+        l'encodage des textes. Les textes, après OCRisation, sont encodés en
+        XML-TEI suivant un <em>workflow</em> en trois étapes disponible sur
+        <a href="https://github.com/e-ditiones/ODD17" target="_blank">ODD17</a>.
+        <hr/>
+        <br/>
+        
+        <h1 class="text-center">À propos de l'équipe</h1>
+
+        <h2>Simon Gabay</h2>
+        <p>Après des études à Paris IV-Sorbonne et St Andrews, Simon Gabay part 
+        écrire sa thèse de doctorat en philologie latine à l'université d'Amsterdam (UvA) 
+        sur l'histoire de l'acteur au Moyen Âge.<br/>
+        Pour son post-doctorat, il oriente ses recherches en philologie computationnelle 
+        dans le cadre d'un projet FNS sur les manuscrits de Madame de Sévigné à l'université 
+        de Neuchâtel, où il enseigne les humanités numériques.<br/>
+        En 2020, il rejoint l'université de Genève auprès de la chaire de Béatrice 
+        Joyeux-Prunel comme Maître-assistant, où il dirige deux projets:
+        <ul>
+        <li>E-ditiones: corpus et outils pour l'étude du français classique.</li>
+        <li>Katabase: base de données des manuscrits en circulation sur le marché privé.</li>
+        </ul>
+        Ses principaux domaines de recherche sont la philologie française moderne, 
+        l'histoire de la philologie, la littérature classique, le traitement automatique des 
+        langues, la reconnaissance optique de caractères.<br/>
+        Ses publications sont gratuitement disponibles en ligne sur 
+        <a href="https://cv.archives-ouvertes.fr/simon-gabay" target="_blank">HAL</a>.
+                </p>
+        <br/>
+        <h2>Alexandre Bartz</h2>
+        <p>Alexandre Bartz est diplômé du master Technologies numériques appliquées à l'histoire 
+        de l'École nationale des chartes (Paris). Depuis avril 2020, il travaille au sein des 
+        projets E-ditiones et Katabase, d'abord en tant que stagiaire puis collaborateur scientifique, 
+        sous la direction de Simon Gabay. Il est notamment chargé de la chaîne de production des données, 
+        allant de leur encodage à leur publication.<br/>
+        Ses publications sont gratuitement disponibles en ligne sur 
+        <a href="https://cv.archives-ouvertes.fr/alexandre-bartz" target="_blank">HAL</a>.
+        </p>
+        <hr/>
+        <br/>
+        <br/>
+        </div>
+        <br/>
+        <div class="Float_droite">
+        <h4 class="text-center">Ressources</h4>
+
+        <h5>Le projet</h5>
+
+        <ul>
+          <li>
+            <a href="https://github.com/e-ditiones" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://editiones.hypotheses.org" target="_blank">Carnet de recherche</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/e_ditiones" target="_blank">Twitter</a>
+          </li>
+        </ul>
+
+        <h5>Ressources annexes et bibliographie</h5>
+
+        <ul>
+          <li>
+                        <a href="https://tei-c.org" target="_blank">TEI</a>
+                    </li>
+          <li>
+            <a href="https://teipublisher.com/index.html" target="_blank">TEI Publisher</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+    </pb-page>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Notices</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  </head>
+
+  <body>
+    <pb-page>
+      <app-drawer-layout force-narrow="force-narrow">
+        <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+        <!-- Cette partie concerne tous les outils de la partie supérieure de la page. -->
+        <app-header-layout>
+          <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+            <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+          </app-header>
+        </app-header-layout>
+      </app-drawer-layout>
+
+      <div class="container">
+        <h1 class="main-title text-center">
+          Notices
+        </h1>
+
+        <div class="accueil">
+          <p class="lead">
+          
+          </p>
+        </div>
+      </div>
+      <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+    </pb-page>
+  </body>
+</html>

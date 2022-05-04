@@ -1,0 +1,8 @@
+{
+  "dependencies" : {
+    "@teipublisher/pb-components" : "0.9.37"
+  },
+  "name" : "E-ditiones",
+  "version" : "1.0.0",
+  "description" : "E-ditiones"
+}
