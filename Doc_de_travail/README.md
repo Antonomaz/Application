@@ -10,7 +10,10 @@ TO DO
 Fichiers concernés : 
 * `config.xqm` : gère l'affichage des cases à cocher sur index.html ;
 * `collection.xconf` : l'élément `<facet>` permet de spécifier l'information à récupérer dans le fichier XML ;
+* `index.xql` 
 
+Ajouter lieux de publication : modification de config (ajout de nouveaux facets + les labels) + collection (facet : lieu). 
+Trouver où indiquer où aller chercher la valeur dans le doc TEI.
 
 ## Header et footer
 
