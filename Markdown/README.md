@@ -12,6 +12,7 @@ Ce dossier contient le brouillon des fichiers en Markdown qui pourront directeme
 
 Bibliographie : sous quel format ? 
 Passage par Zenodo puis export ? 
+Met-on ici aussi les "liens vers "? (cf la liste faite dans le framapad)?
 
 ## HELP
 
