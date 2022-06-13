@@ -2,10 +2,9 @@
 
 Présentation de l'équipe du projet.
 
-Chercheurs : 
-Karine Abiven, MCF en langue et littérature françaises. https://orcid.org/0000-0001-9518-1040
+Karine Abiven, Enseignante chercheuse en langue et littérature françaises. https://orcid.org/0000-0001-9518-1040
 
-Gaël Lejeune, MCF en informatique. https://orcid.org/0000-0002-4795-2362
+Gaël Lejeune, Enseignant chercheur  en informatique. https://orcid.org/0000-0002-4795-2362
 
 Alexandre Bartz, Ingénieur. https://orcid.org/0000-0003-0850-8266
 
