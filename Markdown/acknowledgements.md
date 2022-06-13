@@ -1,6 +1,6 @@
 # Remerciements
 
-Le projet a été soutenu depuis 2020 par l'Institut Universitaire de France, l'unité de la service CERES de la Faculté des Lettres de Sorbonne Université et la TGIR Huma-num.
+Le projet a été soutenu depuis 2020 par l'Institut Universitaire de France, l'unité de service CERES de la Faculté des Lettres de Sorbonne Université et la TGIR Huma-num.
 Il a bénéficié aussi du soutien du DIM STCN de la région Île-de-France (Sciences des textes et connaissances nouvelles), le consortium CORLI et la LABEX Obvil.
 
 Nous remercions en particulier:
