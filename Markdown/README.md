@@ -1,5 +1,11 @@
 # Markdown
 
+
+```diff
+- Les fichiers en Markdown sont directement affichés sur le site Antonomaz.huma-num.fr
+```
+
+
 Ce dossier contient le brouillon des fichiers en Markdown qui pourront directement être insérés dans les pages html de l'application.
 
 ## Liste
