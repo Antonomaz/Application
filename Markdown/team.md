@@ -1,16 +1,16 @@
 # L'équipe
 
-Chercheurs responsables :
+_Chercheurs responsables :_
 
 - Karine Abiven, Enseignante chercheuse en langue et littérature françaises. https://orcid.org/0000-0001-9518-1040
 
 - Gaël Lejeune, Enseignant chercheur  en informatique. https://orcid.org/0000-0002-4795-2362
 
-Ingénieur :
+_Ingénieur :_
 
 - [Alexandre Bartz](https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022. 
 
-Etudiants:
+_Etudiants:_
 - Jean-Baptiste Tanguy, Doctorant en informatique, Sorbonne. https://orcid.org/0000-0002-0007-1664
 
 Stagiaires:
