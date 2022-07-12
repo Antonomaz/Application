@@ -2,15 +2,16 @@
 
 _Enseignants chercheurs_
 
-- Responsable du projet : **Karine Abiven**, Enseignante chercheuse en langue et littérature françaises.
+- Responsable du projet : 
+- **Karine Abiven**, Enseignante chercheuse en langue et littérature françaises.
 
 https://orcid.org/0000-0001-9518-1040
 
 - **Gaël Lejeune**, Enseignant chercheur  en informatique. https://orcid.org/0000-0002-4795-2362
 
-_Ingénieur_: [Alexandre Bartz](https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022. 
+_Ingénieur_: **[Alexandre Bartz]**(https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022. 
 
-_Graphiste_ : Jean-Marie Trouiller
+_Graphiste_ : Jean-Marie Trouiller,
 https://www.cinquantesix.com/
 
 _Etudiants_
