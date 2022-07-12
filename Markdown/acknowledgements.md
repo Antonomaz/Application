@@ -8,5 +8,6 @@ Nous remercions en particulier:
 - La [Bibliothèque municipale de Lyon](https://www.bm-lyon.fr/) et en particulier Benjamin Ravier-Mazzocco, conservateur responsable adjoint des collections anciennes et spécialisées, chargé des imprimés, pour le partage des connaissances sur les livres physiques numérisés sur Google Books,
 - La [Bibliothèque de l'Arsenal BnF](https:/www.bnf.fr/fr/arsenal/), et en particulier Nadine Ferey-Pfalzgraf, conservatrice chargée du fonds de livres anciens,
 - Le Consortium [Cahier](https://cahier.hypotheses.org/) pour la labellisation et la réflexion sur l'interopérabilité.
+- Sébastien Cretin, Expert OCR et formats éditoriaux à la Bibliothèque nationale de France, pour ses renseignements sur les diverses campagnes d'océrisation de la Bnf,
 - [Simon Gabay](https://cv.archives-ouvertes.fr/simon-gabay) pour le dialogue scientifique et technique sur les ressources numériques de la première modernité,
 
