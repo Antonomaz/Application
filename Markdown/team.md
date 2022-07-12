@@ -14,7 +14,7 @@ _Ingénieur_
 
 _Etudiants_
 - Jean-Baptiste Tanguy, Doctorant en informatique, Sorbonne. https://orcid.org/0000-0002-0007-1664
-- 
+
 -- Stagiaires
 - Margaux Faure (M2 Humanités Numériques, École nationale des chartes), 2022
 - Zoé Cappe (M2 Humanités Numériques, École nationale des chartes), 2022
