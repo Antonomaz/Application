@@ -10,13 +10,13 @@ Ce dossier contient le brouillon des fichiers en Markdown qui pourront directeme
 
 ## Liste
 
-* []team : présentation de l'équipe (À FAIRE)
-* []project : présentation du projet (À FAIRE)
-* []acknowledgements : remerciements (À FAIRE)
+* []team : présentation de l'équipe (fait)
+* []project : présentation du projet (fait, à revoir ensemble)
+* []acknowledgements : remerciements (fait peut-etre ajouts à faire?)
 
 ## To do
 
-Bibliographie : sous quel format ? 
+Bibliographie : sous quel format ?  > zotero, partagée
 Passage par Zenodo puis export ? 
 Met-on ici aussi les "liens vers "? (cf la liste faite dans le framapad)?
 
