@@ -1,0 +1,14 @@
+ 
+**Nommage**
+
+Repose sur les identifiants moreau et ses suplléments : Moreau1, Moreau_1Suppl19, Moreau_2Suppl, Labadie, Socard…
+
+Le nommage indique aussi la source numérique de l’exemplaire virtuel : Gallica, Mazarinum, Gbooks, Séléné (Bordeaux).
+
+Le suffixe -2, -3, désigne les doublons textuels issus de la même collection numérique. 
+
+Nous appelons doublons les exemplaires d’une même édition, même s’ils relèvent d’un état différent. Nous appelons pseudo-doublons les exemplaires d’éditions différentes, considérant que ce sont souvent des doublons textuels. 
+
+Les réémissions (réédition avec changement d’endroits stratégiques comme la page de titre) sont considérées comme une entité. Les doublons et pseudo-doublons ne seront pas inclus par défaut dans les recherche textuelle (car ils représentent des redites dans les recherches), mais seront accessibles dans un dossier à part, quand disponibles numériquement) 
+
+**Traitement des images**
