@@ -1,6 +1,10 @@
- Ce projet tend à rassembler et mettre à disposition un ensemble de documents appelés "mazarinades", parus en grande majorité pendant la Fronde (1648-1653). Ces documents ont été repérés et définis comme "mazarinades" par Célestin Moreau, Emile Socard, Ernest Labadie et Hubert Carrier. L'objectif du projet est de récupérer numériquement ces documents, d'en renseigner les métadonnées et à terme d'ajouter de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique.
+# Documentation technique
 
-** Livre numériques**
+## DOC À COMPLÉTER
+
+Ce projet tend à rassembler et mettre à disposition un ensemble de documents appelés "mazarinades", parus en grande majorité pendant la Fronde (1648-1653). Ces documents ont été repérés et définis comme "mazarinades" par Célestin Moreau, Emile Socard, Ernest Labadie et Hubert Carrier. L'objectif du projet est de récupérer numériquement ces documents, d'en renseigner les métadonnées et à terme d'ajouter de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique.
+
+**Livre numériques**
 Il s'agit d'exemplaires numériques moissonnés essentiellement sur Gallica, Mazarinum et GoogleBooks.
 Rappeler les droits. 
 

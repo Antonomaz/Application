@@ -1,13 +1,14 @@
 # L'équipe
 
-### Responsables du projet : 
+
+## Responsables du projet : 
 
 - [**Karine Abiven**](https://orcid.org/0000-0001-9518-1040), Enseignante chercheuse en langue et littérature françaises, Sorbonne Université.
 
 
 - [**Gaël Lejeune**](https://www.lejeunegael.fr/), Enseignant chercheur  en informatique, Sorbonne Université.
 
-### Contributeurs :
+## Contributeurs :
 
 - [**Alexandre Bartz**](https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022, Sorbonne Université.
 
@@ -15,7 +16,7 @@
 
 - [Jean-Baptiste Tanguy](https://orcid.org/0000-0002-0007-1664), Doctorant en informatique, Sorbonne Université. 
 
-#### Stagiaires : 
+## Stagiaires : 
 
 - Margaux Faure (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022
 - Zoé Cappe (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022
