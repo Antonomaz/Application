@@ -26,11 +26,14 @@ Les doublons et pseudo-doublons ne seront pas inclus par défaut dans les recher
 **Traitement des images**
 Google livres > readme de Margaux
 
-** Métadonnées**
+**Métadonnées**
 auteur, imprimeurs, sources.
 renvoyer au Github de Margaux
 
 **Technologies utilisées**
 TEI-Publisher
+
 IIIF
+
+Kraken
 
