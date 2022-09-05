@@ -6,7 +6,7 @@ Ce projet cherche à mettre à disposition un ensemble d'écrits d'actualité pa
 
 **Livre numériques**
 
-Il s'agit d'exemplaires numériques moissonnés essentiellement sur *(Gallica)[https://gallica.bnf.fr/]*, *(Mazarinum)[https://mazarinum.bibliotheque-mazarine.fr/]* et *(GoogleBooks)[https://books.google.fr/]* (licence	CC-BY). Ils sont exposés, grace au protocole IIIF dans un visualiseur (Mirador).
+Il s'agit d'exemplaires numériques moissonnés essentiellement sur *[Gallica](https://gallica.bnf.fr/)*, *[Mazarinum](https://mazarinum.bibliotheque-mazarine.fr/)* et *[GoogleBooks](https://books.google.fr/)* (licence	CC-BY). Ils sont exposés, grace au protocole IIIF dans un visualiseur (Mirador).
  
 **Textes obtenus automatiquement (OCR)**
 
