@@ -1,4 +1,4 @@
-# Le projet
+# LE PROJET
 
 
 Le projet **Antonomaz** (ANalyse auTOmatique et NumérisatiOn des MAZarinades) donne accès à un vaste ensemble de *mazarinades* : c'est le nom traditionnellement donné aux écrits d'actualité produits pendant la Fronde en France, entre 1648 et 1653. Ces textes, presque toujours brefs et souvent polémiques, visent les personnalités politiques du temps : Mazarin, mais aussi le Prince de Condé, ou le Parlement par exemple, car ils émanent de tous les camps politiques. Ils peuvent aussi simplement relater des faits d'actualité. Imprimés pour la plupart, ils ont représenté une explosion de la production de petits livres dans la librairie du 17e siècle.

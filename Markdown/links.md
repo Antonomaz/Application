@@ -1,4 +1,4 @@
-# Ressources en ligne
+# RESSOURCES EN LIGNE
 
 ## Les ressources liées au projet
 

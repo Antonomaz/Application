@@ -1,4 +1,4 @@
-# Remerciements
+# REMERCIEMENTS
 
 Le projet est soutenu depuis 2020 par l'[Institut Universitaire de France](https://www.iufrance.fr/), l'unité de service [CERES](http://ceres-sorbonne-universite.fr/) de la [Faculté des Lettres de Sorbonne Université](https://lettres.sorbonne-universite.fr/) et la [TGIR Huma-num](https://www.huma-num.fr/).
 Il a bénéficié aussi du soutien du [DIM STCN](https://www.dim-humanites-numeriques.fr/) de la région Île-de-France (Sciences des textes et connaissances nouvelles), du consortium [CORLI](https://corli.huma-num.fr/) et du [LABEX Obvil](https://obvil.sorbonne-universite.fr/).
@@ -10,5 +10,5 @@ Nous remercions en particulier:
 - Le Consortium [Cahier](https://cahier.hypotheses.org/) pour la labellisation et la réflexion sur l'interopérabilité.
 - Sébastien Cretin, Expert OCR et formats éditoriaux à la Bibliothèque nationale de France, pour ses renseignements sur les diverses campagnes d'océrisation de la Bnf,
 - [Simon Gabay](https://cv.archives-ouvertes.fr/simon-gabay) pour le dialogue scientifique et technique sur les ressources numériques de la première modernité,
-- Alain Riffaud, pour son expertise sur les imprimeurs
+- Alain Riffaud, pour son expertise sur les imprimeurs.
 

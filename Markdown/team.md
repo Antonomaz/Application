@@ -1,4 +1,4 @@
-# L'équipe
+# L'ÉQUIPE
 
 
 ## Responsables du projet : 
