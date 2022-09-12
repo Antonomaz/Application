@@ -12,7 +12,7 @@
 
 - [**Alexandre Bartz**](https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022, Sorbonne Université.
 
-- [Jean-Marie Trouiller](https://www.cinquantesix.com/), graphiste chargé de la conception de la charte graphique.
+- [Jean-Marie Troullier](https://www.cinquantesix.com/), graphiste chargé de la conception de la charte graphique.
 
 - [Jean-Baptiste Tanguy](https://orcid.org/0000-0002-0007-1664), Doctorant en informatique, Sorbonne Université. 
 
