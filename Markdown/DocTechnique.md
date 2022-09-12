@@ -1,4 +1,4 @@
-# Documentation technique
+# DOCUMENTATION TECHNIQUE
 
 ## *En cours de rédaction*
 
