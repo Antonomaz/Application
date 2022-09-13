@@ -1,4 +1,6 @@
-# REMERCIEMENTS
+# CRÉDITS
+
+## Remerciements
 
 Le projet est soutenu depuis 2020 par l'[Institut Universitaire de France](https://www.iufrance.fr/), l'unité de service [CERES](http://ceres-sorbonne-universite.fr/) de la [Faculté des Lettres de Sorbonne Université](https://lettres.sorbonne-universite.fr/) et la [TGIR Huma-num](https://www.huma-num.fr/).
 Il a bénéficié aussi du soutien du [DIM STCN](https://www.dim-humanites-numeriques.fr/) de la région Île-de-France (Sciences des textes et connaissances nouvelles), du consortium [CORLI](https://corli.huma-num.fr/) et du [LABEX Obvil](https://obvil.sorbonne-universite.fr/).
@@ -11,4 +13,14 @@ Nous remercions en particulier:
 - Sébastien Cretin, Expert OCR et formats éditoriaux à la Bibliothèque nationale de France, pour ses renseignements sur les diverses campagnes d'océrisation de la Bnf,
 - [Simon Gabay](https://cv.archives-ouvertes.fr/simon-gabay) pour le dialogue scientifique et technique sur les ressources numériques de la première modernité,
 - Alain Riffaud, pour son expertise sur les imprimeurs.
+
+## Images
+
+Le logo et les images qui ont servi à la conception des décors visuels de l'application sont issus des bibliothèques numériques suivantes :
+- Bernard Samuel, *Le Retour de Gonesse*, 1649. Paris Musées. [[En ligne](https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-retour-de-gonesse)]. [Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+- *Le Savoyard, Orphée du Pont-neuf*, [s. d.], gallica.bnf.fr / Bibliothèque nationale de France. [[En ligne](https://gallica.bnf.fr/ark:/12148/btv1b84340768.item)]. [Licence](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica) (réutilisation non commerciale).
+- *Recit véritable dv dvel arrivé entre devx soevrs proche de Bordeavx, l'vne pour auoir pris le party & deffendu la Fronde & l'autre l'Espée, dont l'auantage a esté remporté par la belle Frondeuse.
+Récit véritable du duel arrivé entre deux sœurs proche de Bordeaux, l'une pour avoir pris le parti et défendu la Fronde et l'autre l'Épée, dont l'avantage a été remporté par la belle frondeuse.*, 1650. Bibliothèque Mazarine, M 15043. [[En ligne](https://mazarinum.bibliotheque-mazarine.fr/records/item/3595-recit-veritable-du-duel-arrive-entre-deux-soeurs-proche-de-bordeaux-l-une-pour-avoir-pris-le-party-deffendu-la-fronde-l-autre-l-espee-dont-l-avantage-a-este-remporte-par-la-belle-frondeuse)]. [Licence](https://creativecommons.org/licenses/by-nc-nd/3.0/fr/) (réutilisation non commerciale).
+- *Recit de ce qui s'est fait et passé a la marche mazarine, depuis sa sortie de Paris jusques à Sedan*, 1651. Bibliothèque Mazarine,  M 15042. [[En ligne](https://mazarinum.bibliotheque-mazarine.fr/records/item/3596-recit-de-ce-qui-s-est-fait-et-passe-a-la-marche-mazarine-depuis-sa-sortie-de-paris-jusques-a-sedan)]. [Licence](https://creativecommons.org/licenses/by-nc-nd/3.0/fr/) (réutilisation non commerciale).
+
 
