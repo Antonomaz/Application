@@ -17,7 +17,7 @@ Nous remercions en particulier:
 ## Images
 
 Les images qui ont servi à la conception des décors visuels et du logo de l'application sont les suivantes :
-- *L'air de Jean de vert*, Ms BNF fonds français 12666, p. XI, photo Karine Abiven. [Licence](https://www.bnf.fr/fr/conditions-de-reutilisations-des-donnees-de-la-bnf).
+- "L'air de Jean de vert", Ms BNF fonds français 12666, p. XI, photo Karine Abiven. [Licence](https://www.bnf.fr/fr/conditions-de-reutilisations-des-donnees-de-la-bnf).
 - "L'air de la petite fronde", *Recueil de chansons choisies en vaudeville, pour servir à l'histoire anecdote*, [s. d.], gallica.bnf.fr / Bibliothèque nationale de France. [[En ligne]](https://gallica.bnf.fr/ark:/12148/btv1b10557275w/f9.item.r=chansons%20pour%20servir%20%C3%A0%20l'histoire%20anecdotte). [Licence](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica).
 - "L'air des triolets", *Recueil de chansons choisies en vaudevilles. Pour servir à Lhistoire Anecdotte depuis 1697 Jusques à 1731* (extrait), 1731, gallica.bnf.fr / Bibliothèque nationale de France. [[En ligne]](https://gallica.bnf.fr/ark:/12148/btv1b10542312d/f52.item.r=vma%20ms%207). [Licence](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica).
 - *Recit de ce qui s'est fait et passé a la marche mazarine, depuis sa sortie de Paris jusques à Sedan*, 1651, gallica.bnf.fr / Bibliothèque nationale de France. [[En ligne]](https://gallica.bnf.fr/ark:/12148/btv1b8404257s). [Licence](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica).
