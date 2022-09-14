@@ -1,32 +1,34 @@
 # DOCUMENTATION TECHNIQUE
 
-## *En cours de rédaction*
+```diff
+En cours de rédaction.
+```
 
-Ce projet cherche à mettre à disposition un ensemble d'écrits d'actualité parus en grande majorité pendant la Fronde (1648-1653). Leur repérage a été rendu possible par le dépouillement des bibliographies de Célestin Moreau, Emile Socard, Ernest Labadie, Hubert Carrier et celle, en cours d'élaboration, de la [bibliothèque Mazarine] (https://mazarinades.bibliotheque-mazarine.fr/). Le projet a d'abord consisté à récupérer numériquement ces documents, à en renseigner les métadonnées et à les lier entre eux et à des ressources (base des imprimuers, notices sur une notin ou un événement, etc.). Nous ajoutons également de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique. À moyen terme le but est d'une part d'encoder la structure des documents (éléments décoratifs, zones de texte, etc.) et d'autre part d'annoter linguistiquement leur formats texte (lemmatisation, identification des parties du discours).
+Ce projet cherche à mettre à disposition un ensemble d'écrits d'actualité parus en grande majorité pendant la Fronde (1648-1653). Leur repérage a été rendu possible par le dépouillement des bibliographies de Célestin Moreau, Emile Socard, Ernest Labadie, Hubert Carrier et celle, en cours d'élaboration, de la [bibliothèque Mazarine](https://mazarinades.bibliotheque-mazarine.fr/). Le projet a d'abord consisté à récupérer numériquement ces documents, à en renseigner les métadonnées et à les lier entre eux et à des ressources (base des imprimuers, notices sur une notin ou un événement, etc.). Nous ajoutons également de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique. À moyen terme le but est d'une part d'encoder la structure des documents (éléments décoratifs, zones de texte, etc.) et d'autre part d'annoter linguistiquement leur formats texte (lemmatisation, identification des parties du discours).
 
-**Livres numériques**
+## Livres numériques
 
 Il s'agit d'exemplaires numériques moissonnés essentiellement sur *[Gallica](https://gallica.bnf.fr/)*, *[Mazarinum](https://mazarinum.bibliotheque-mazarine.fr/)* et *[GoogleBooks](https://books.google.fr/)* (licence	CC-BY).
 Les images de Google Books ont fait l'objet d'un traitement : sur cette plateforme il est fréquent que la dernière page soit dupliquées jusqu'à 10 fois, ce qui alourdit le document et rend sa version océrisée très redondante. Ces pages répétées ont donc été ôtées pour que le fac simile numérique soit fidèle à l'objet imprimé. La page de mentions légales est laissée intacte.
 
-**Textes obtenus automatiquement (OCR)**
+## Textes obtenus automatiquement (OCR)
 
 Chaque document peut être affiché et téléchargé en format texte. Ces textes sont issus d'un processus automatique (reconnaissance automatique de caractères/_optical characters recognition_ ou "OCR"), ce qui explique qu'ils contiennent des coquilles ou des erreurs manifestes. Cette automatisation de la transcritpion a toutefois été optimisée par l'utilsation d'un modèle de reconnaissance automatique entrainé sur des documents du XVIIe siècle (établi par Simon Gabay, avec le logiciel Kraken). La page de titre a été corrigée manuellement. Une recherche automatique (Ctrl +F) dans la page d'OCR permet de retrouver rapidement les occurrences qui auront été repérées par le moteur de recherche.
 
-**Technologies utilisées**
+## Technologies utilisées
 
-Les images sont exposées grace à IIIF (International Image Interoperability Framework), via un visualiseur [Mirador] (https://projectmirador.org/). Ce choix offre notamment une visualisation homogène de documents issus de bibliothèques numériques différentes, ainsi que tous les avantages de [IIIF] (https://training.iiif.io/intro-to-iiif/) (comparaison de deux documents, recherche plein texte, etc.). 
+Les images sont exposées grace à IIIF (International Image Interoperability Framework), via un visualiseur [Mirador](https://projectmirador.org/). Ce choix offre notamment une visualisation homogène de documents issus de bibliothèques numériques différentes, ainsi que tous les avantages de [IIIF](https://training.iiif.io/intro-to-iiif/) (comparaison de deux documents, recherche plein texte, etc.). 
 
 L'édition des fichiers texte utilise le langage XML-TEI pour produire des données interopérables. L'encodage des métadonnées contenues dans l'en-tête de chaque fichier permet de décrire la matérialité du document, de donner des indications bibliographiques mais aussi de travailler finement l'établissements des métadonnées lui-même (voir infra). L'encodage du texte lui-même est actuellement minimal (paragraphes et lignes/vers, et permission d'imprimer et estampilles). Il est amené à évoluer grace à une HTRisation par eScriptorium, programmée en 2023.
 
-Ces fichiers xml-TEI sont disponibles sur le [github du projet] (https://github.com/Antonomaz/Corpus). La licence applicable pour la diffusion et la réutilisation du travail est une licence libre sans utilisation commerciale.
+Ces fichiers XML-TEI sont disponibles sur le [github du projet](https://github.com/Antonomaz/Corpus). La licence applicable pour la diffusion et la réutilisation du travail est une licence libre sans utilisation commerciale.
 
-**Établissement et hyperliaison des métadonnées**
+## Établissement et hyperliaison des métadonnées
 
-Un soin particulier a été apporté à la structuration et à l'établissement des métadonnées. Elles prennent en compte l'évolution des connaissances depuis la bibliographie de C. Moreau (vers 1850), qui a été amendée par H. Carrier et récemment la Base Bibliogrpahique de la Bibliothèque Mazarine. Les métadonnées intègrent ainsi les discussions de datation ou d'attribution entre les spécialistes à propos d'une production à 80 % anonyme. Elles sont hyperliées entre elles et avec les référentiels du web sémantique :[geoname](https://www.geonames.org/) pour les lieux, [isni] (https://isni.org/) notamment, pour les personnes (auteurs et imprimeurs). Chaque imprimeur fait l'objet d'une fiche encodée en TEI, qui reprend les connaissances établies par le _Répertoire d'imprimeurs libraires, 1500-1810_ (BNF, 2004), dont le contenu scientifique a été converti numériquement dans les référentiels en usage, notamment [idref] (https://www.idref.fr/). Une base de données des imprimeurs permet également de retrouver ces informations, indexées.
+Un soin particulier a été apporté à la structuration et à l'établissement des métadonnées. Elles prennent en compte l'évolution des connaissances depuis la bibliographie de C. Moreau (vers 1850), qui a été amendée par H. Carrier et récemment la Base Bibliogrpahique de la Bibliothèque Mazarine. Les métadonnées intègrent ainsi les discussions de datation ou d'attribution entre les spécialistes à propos d'une production à 80 % anonyme. Elles sont hyperliées entre elles et avec les référentiels du web sémantique :[geonames](https://www.geonames.org/) pour les lieux, [isni](https://isni.org/) notamment, pour les personnes (auteurs et imprimeurs). Chaque imprimeur fait l'objet d'une fiche encodée en TEI, qui reprend les connaissances établies par le _Répertoire d'imprimeurs libraires, 1500-1810_ (BNF, 2004), dont le contenu scientifique a été converti numériquement dans les référentiels en usage, notamment [idref](https://www.idref.fr/). Une base de données des imprimeurs permet également de retrouver ces informations, indexées.
 Des mots clés sont ajoutés peu à peu, en particulier les sujets, et les genres textuels (chansons, harangues, dialogues, etc.). 
 
-**Sélection des items numériques et nommage**
+## Sélection des items numériques et nommage
 
 L'exemplaire numérique correspond à un exemplaire physique de bibliothèque. Pour autant nous avons choisi d'homogénéiser le nommage des documents en nous référant à la numérotation de Célestin Moreau. Le nom (.txt, .pdf, .xml) et l'URL du document  sont formés ainsi: [identifiants Moreau ou ses suppléments] + [bibliothèque numérique source du fac-simile numérique], par exemples : Moreau3_MAZ (n° 3 de la Bibliographie Moreau, issus de _Mazarinum_), Moreau1suppl12_GALL (n° 12 du premier supplément de la Bibliographie Moreau, issu de _Gallica_), ou Labadie158_GBOOKS (n° 158 du supplément de Labadie, issu de _GoogleBooks_).
 
