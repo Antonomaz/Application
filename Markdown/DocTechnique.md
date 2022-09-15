@@ -4,7 +4,7 @@
 En cours de rédaction.
 ```
 
-Ce projet cherche à mettre à disposition un ensemble d'écrits d'actualité parus en grande majorité pendant la Fronde (1648-1653). Leur repérage a été rendu possible par le dépouillement des bibliographies de Célestin Moreau, Emile Socard, Ernest Labadie, Hubert Carrier et celle, en cours d'élaboration, de la [bibliothèque Mazarine](https://mazarinades.bibliotheque-mazarine.fr/). Le projet a d'abord consisté à récupérer numériquement ces documents, à en renseigner les métadonnées et à les lier entre eux et à des ressources ([base des immprimeurs](https://antonomaz.huma-num.fr/exist/apps/Antonomaz/imprimeurs.html?collection=imprimeurs), [notices](https://antonomaz.huma-num.fr/exist/apps/Antonomaz/notices.html?collection=notices) sur une notion ou un événement, etc.). Nous ajoutons également de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique. À moyen terme le but est d'une part d'encoder la structure des documents (éléments décoratifs, zones de texte, etc.) et d'autre part d'annoter linguistiquement leur formats texte (lemmatisation, identification des parties du discours).
+Ce projet cherche à mettre à disposition un ensemble d'écrits d'actualité parus en grande majorité pendant la Fronde (1648-1653). Leur repérage a été rendu possible par le dépouillement des bibliographies de Célestin Moreau, Emile Socard, Ernest Labadie, Hubert Carrier et celle, en cours d'élaboration, de la [bibliothèque Mazarine](https://mazarinades.bibliotheque-mazarine.fr/). Le projet a d'abord consisté à récupérer numériquement ces documents, à en renseigner les métadonnées et à les lier entre eux et à des ressources ([base des imprimeurs](https://antonomaz.huma-num.fr/exist/apps/Antonomaz/imprimeurs.html?collection=imprimeurs), [notices](https://antonomaz.huma-num.fr/exist/apps/Antonomaz/notices.html?collection=notices) sur une notion ou un événement, etc.). Nous ajoutons également de nouvelles sources pouvant être qualifiées de "mazarinade" dans cette collection numérique. À moyen terme le but est d'une part d'encoder la structure des documents (éléments décoratifs, zones de texte, etc.) et d'autre part d'annoter linguistiquement leur formats texte (lemmatisation, identification des parties du discours).
 
 ## Livres numériques
 
@@ -31,6 +31,13 @@ Ces fichiers XML-TEI sont disponibles sur le [github du projet](https://github.c
 ## Les métadonnées des textes
 
 ### Sources
+
+Les métadonnées renseignées dans les fichiers XML-TEI sont d'origines diverses, elles s'appuient par défaut sur les bibliographies établies par E. Labadie, C. Moreau et E. Socard. D'autres sources nous ont permis de compléter et améliorer ces informations, en voici une liste non-exhaustive :
+- Bibliographie de la bibliothèque Mazarine : elles constituent de loin les métadonnées les plus complètes. Ces données s'appuient sur les écrits d'Hubert Carrier, dont le travail sur les datations nous a été particulièrement utile.
+- Catalogue de la Bibliothèque nationale de France ;
+- Métadonnées fournies par la Bibliothèque municipale de Lyon ;
+
+Ces métadonnées sont ponctuellement complétées ou corrigées par nos soins lorsque ceci est possible.
 
 ### Établissement et hyperliaison des métadonnées
 
