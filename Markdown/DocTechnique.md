@@ -14,7 +14,7 @@ Les images de Google Books ont fait l'objet d'un traitement particuliers : en ef
 
 ## Textes obtenus automatiquement (OCR)
 
-Chaque document peut être affiché et téléchargé en format texte. Ces textes sont issus d'un processus automatique (reconnaissance automatique de caractères/_optical characters recognition_ ou "OCR"), ce qui explique qu'ils contiennent des coquilles ou des erreurs manifestes. Cette automatisation de la transcritpion a toutefois été optimisée par l'utilsation d'un modèle de reconnaissance automatique entrainé sur des documents du XVIIe siècle (établi par Simon Gabay, avec l'outil Kraken). La page de titre a été corrigée manuellement. Une recherche automatique (Ctrl +F) dans la page d'OCR permet de retrouver rapidement les occurrences qui auront été repérées par le moteur de recherche.
+Chaque document peut être affiché et téléchargé en format texte. Ces textes sont issus d'un processus automatique (reconnaissance automatique de caractères/_optical characters recognition_ ou "OCR"), ce qui explique qu'ils contiennent des coquilles ou des erreurs manifestes. Cette automatisation de la transcritpion a toutefois été optimisée par l'utilsation d'un modèle de reconnaissance automatique entrainé sur des documents du XVIIe siècle (établi par Simon Gabay, avec l'outil Kraken). Nous ne réutilisons donc pas les océrisations de _Gallica_ ou de _Mazarinum_. La page de titre a été corrigée manuellement. Une recherche automatique (Ctrl +F) dans la page d'OCR permet de retrouver rapidement les occurrences qui auront été repérées par le moteur de recherche.
 
 ## Technologies utilisées
 
