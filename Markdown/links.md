@@ -9,4 +9,4 @@
 
 ## Ressources extérieures 
 
-* [La bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr/)est base de données proposée par la Bibliothèque Mazarine.
+* [La bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr/) est base de données proposée par la Bibliothèque Mazarine.

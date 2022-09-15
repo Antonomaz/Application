@@ -33,9 +33,9 @@ Ces fichiers XML-TEI sont disponibles sur le [github du projet](https://github.c
 ### Sources
 
 Les métadonnées renseignées dans les fichiers XML-TEI sont d'origines diverses, elles s'appuient par défaut sur les bibliographies établies par E. Labadie, C. Moreau et E. Socard. D'autres sources nous ont permis de compléter et améliorer ces informations, en voici une liste non-exhaustive :
-- Bibliographie de la bibliothèque Mazarine : elles constituent de loin les métadonnées les plus complètes. Ces données s'appuient sur les écrits d'Hubert Carrier, dont le travail sur les datations nous a été particulièrement utile.
-- Catalogue de la Bibliothèque nationale de France ;
-- Métadonnées fournies par la Bibliothèque municipale de Lyon ;
+- **Bibliographie de la Bibliothèque Mazarine** : elles constituent de loin les métadonnées les plus complètes. Ces données s'appuient sur les écrits d'**Hubert Carrier**, dont le travail sur les datations nous a été particulièrement utile.
+- **Catalogue de la Bibliothèque nationale de France** ;
+- **Métadonnées fournies par la Bibliothèque municipale de Lyon** ;
 
 Ces métadonnées sont ponctuellement complétées ou corrigées par nos soins lorsque ceci est possible.
 
