@@ -18,12 +18,12 @@
 
 ## Stagiaires : 
 
-- Margaux Faure (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022
-- Zoé Cappe (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022
-- Amélie Hip (M2 Informatique, Sorbonne) vacataire, 2021
-- Mélanie Lecha (M2 Humanités Numériques), ENS/ENSSIB, s 2021
-- Camille Roblin (M2 Humanités Numériques), Lyon 2/ENSSIB, 2021
-- Sylia Kecili (M1 Informatique), 2020
-- Anaëlle Baledent (M2 Informatique Sorbonne), 2018-2019
-- Nicolas Hiebel (L3 Informatique),  2018-2019
+- Margaux Faure (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022.
+- Zoé Cappe (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022.
+- Amélie Hip (M2 Informatique, Sorbonne) vacataire, 2021.
+- Mélanie Lecha (M2 Humanités Numériques), ENS/ENSSIB, 2021.
+- Camille Roblin (M2 Humanités Numériques), Lyon 2/ENSSIB, 2021.
+- Sylia Kecili (M1 Informatique), 2020.
+- Anaëlle Baledent (M2 Informatique Sorbonne), 2018-2019.
+- Nicolas Hiebel (L3 Informatique),  2018-2019.
 
