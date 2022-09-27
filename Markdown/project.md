@@ -6,11 +6,6 @@ Le projet **Antonomaz** (ANalyse auTOmatique et NumérisatiOn des MAZarinades) d
 
 Le présent site donne accès à quelque 3000 documents qui représentent environ les 2/3 des entités repérées comme "mazarinades" (5 000 à 6 000 entités, en tout, à raison de plusieurs centaines d'exemplaires par édition). Il est possible de feuilleter les documents sous leur format image, ou de faire des recherches directement dans le texte. L'utilisateur peut aussi rassembler des séries de documents selon leur auteur, leur imprimeur, des mots de leur titre, leur date, etc., pour faire des corpus cohérents selon son intérêt de recherche. À moyen terme des recherches linguistiques plus avancées seront possibles. Des notices donnent des informations historiques pour mieux comprendre ces textes ancrés dans leur actualité et qui nécessitent une connaissance du contexte pour être compris.
 
-Pour un exposé plus complet du projet et des exemples d'exploitation des données, voir :
-
-* 2022: Karine Abiven, Alexandre Bartz, Jean-Baptiste Tanguy et Gaël Lejeune, « Vers une collection numérique des libelles de la Fronde ou comment relier des mazarinades », dans A. Réach-Ngô et R. Walter (dir.), « Circulation des écrits littéraires de la Première Modernité & Humanités numériques », Le Verger. ([En ligne](https://cornucopia16.com/blog/2022/04/24/karine-abiven-alexandre-bartz-gael-lejeune-et-jean-baptiste-tanguy-vers-une-collection-numerique-des-libelles-parus-pendant-la-fronde-ou-comment-relier-des-mazarinades/))
-
-* 2021 :  Karine Abiven, Jean-Baptiste Tanguy et Gaël Lejeune, « Exploiter un corpus de données textuelles sans post-traitement : l’écriture burlesque de la Fronde », Revue Humanités numériques, n° 4. ([En ligne](https://journals.openedition.org/revuehn/2355))
 
 ## L'équipe
 
@@ -39,3 +34,10 @@ Pour un exposé plus complet du projet et des exemples d'exploitation des donné
 - Sylia Kecili (M1 Informatique), 2020.
 - Anaëlle Baledent (M2 Informatique Sorbonne), 2018-2019.
 - Nicolas Hiebel (L3 Informatique),  2018-2019.
+
+
+## Publications
+
+* 2022: Karine Abiven, Alexandre Bartz, Jean-Baptiste Tanguy et Gaël Lejeune, « Vers une collection numérique des libelles de la Fronde ou comment relier des mazarinades », dans A. Réach-Ngô et R. Walter (dir.), « Circulation des écrits littéraires de la Première Modernité & Humanités numériques », Le Verger. ([En ligne](https://cornucopia16.com/blog/2022/04/24/karine-abiven-alexandre-bartz-gael-lejeune-et-jean-baptiste-tanguy-vers-une-collection-numerique-des-libelles-parus-pendant-la-fronde-ou-comment-relier-des-mazarinades/))
+
+* 2021 :  Karine Abiven, Jean-Baptiste Tanguy et Gaël Lejeune, « Exploiter un corpus de données textuelles sans post-traitement : l’écriture burlesque de la Fronde », Revue Humanités numériques, n° 4. ([En ligne](https://journals.openedition.org/revuehn/2355))
