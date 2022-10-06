@@ -6,6 +6,7 @@ Le projet **Antonomaz** (ANalyse auTOmatique et NumérisatiOn des MAZarinades) d
 
 Le présent site donne accès à quelque 3000 documents qui représentent environ les 2/3 des entités repérées comme "mazarinades" (5 000 à 6 000 entités, en tout, à raison de plusieurs centaines d'exemplaires par édition). Il est possible de feuilleter les documents sous leur format image, ou de faire des recherches directement dans le texte. L'utilisateur peut aussi rassembler des séries de documents selon leur auteur, leur imprimeur, des mots de leur titre, leur date, etc., pour faire des corpus cohérents selon son intérêt de recherche. À moyen terme des recherches linguistiques plus avancées seront possibles. Des notices donnent des informations historiques pour mieux comprendre ces textes ancrés dans leur actualité et qui nécessitent une connaissance du contexte pour être compris.
 
+Les documents ont tous été dotés d'un manifest IIIF (International Image Interoperability Framework). Ce choix offre notamment une visualisation homogène de documents issus de bibliothèques numériques différentes, ainsi que la possibilité de créer des sous-corpus ou de comparer plusieurs documents par exemple.
 
 ## L'équipe
 
