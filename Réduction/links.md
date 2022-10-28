@@ -9,10 +9,10 @@
 
 ## Ressources extérieures 
 
-* Le [Projet Mazarinades](http://mazarinades.org) (RIM), corpus textuel (issu de la collection numérisée de la Bibliothèque de l'Université de Tokyo), et ressources sur les mazarinades  
+* Le [Projet Mazarinades](http://mazarinades.org) (RIM), corpus textuel (issu de la collection numérisée de la bibliothèque de l'Université de Tokyo), et ressources sur les mazarinades  
 
-* [La bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr) (base de données bibliographiques), et [l'exposition virtuelle](https://mazarinum.bibliotheque-mazarine.fr/expositions-virtuelles/item/17780-mazarinades-1648-1653-la-fronde-les-mots-les-presses?offset=) 
-de la Bibliothèque Mazarine sur les mazarinades 
+* [Bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr) (base de données bibliographiques), et [exposition virtuelle](https://mazarinum.bibliotheque-mazarine.fr/expositions-virtuelles/item/17780-mazarinades-1648-1653-la-fronde-les-mots-les-presses?offset=) 
+de la Bibliothèque Mazarine.
 
 - [The mazarinades project at UNC](https://scalar.usc.edu/works/the-mazarinades-project-at-unc/index) (bibliothèque de l'Université de Caroline du nord) 
 
