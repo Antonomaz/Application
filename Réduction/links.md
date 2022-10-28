@@ -24,6 +24,6 @@ de la Bibliothèque Mazarine.
   
 - La [Gazette de Renaudot](https://www.unicaen.fr/gazette/index.php)
 
-- La [Bibliothèque Bleue]de Troyes (https://artflsrv03.uchicago.edu/philologic4/bibbleue) 
+- La [Bibliothèque Bleue](https://artflsrv03.uchicago.edu/philologic4/bibbleue)de Troyes
 
 - Les [*Nouvelles nouvelles*](http://nouvellesnouvelles.yale.edu/index.php) de Donneau de Visé
