@@ -9,21 +9,21 @@
 
 ## Ressources extérieures 
 
-* Le [Projet Mazarinades](%5Bhttp://mazarinades.org%5D) (RIM), corpus textuel (issu de la collection numérisée de la Bibliothèque de l'Université de Tokyo), et ressources sur les mazarinades  
+* Le [Projet Mazarinades](http://mazarinades.org) (RIM), corpus textuel (issu de la collection numérisée de la Bibliothèque de l'Université de Tokyo), et ressources sur les mazarinades  
 
-* [La bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr/) (base de données bibliographiques), et [l'exposition virtuelle](%28https://mazarinum.bibliotheque-mazarine.fr/expositions-virtuelles/item/17780-mazarinades-1648-1653-la-fronde-les-mots-les-presses?offset=3%29) 
+* [La bibliographie des mazarinades](https://mazarinades.bibliotheque-mazarine.fr) (base de données bibliographiques), et [l'exposition virtuelle](https://mazarinum.bibliotheque-mazarine.fr/expositions-virtuelles/item/17780-mazarinades-1648-1653-la-fronde-les-mots-les-presses?offset=) 
 de la Bibliothèque Mazarine sur les mazarinades 
 
-- [The mazarinades project at UNC](%5Bhttps://scalar.usc.edu/works/the-mazarinades-project-at-unc/index%5D) (bibliothèque de l'Université de Caroline du nord) 
+- [The mazarinades project at UNC](https://scalar.usc.edu/works/the-mazarinades-project-at-unc/index) (bibliothèque de l'Université de Caroline du nord) 
 
-- La collection ["Newberry French Pamphlets"](%5Bhttps://archive.org/details/newberryfrenchpamphlets?tab=collection&&and%5B%5D=year:%221649%22%5D%28https://www.newberry.org/french-pamphlets%29), pamphlets de la Révolution française, et plus largement de la France d'ancien régime
+- La collection ["Newberry French Pamphlets"](https://archive.org/details/newberryfrenchpamphlets?tab=collection), pamphlets de la Révolution française, et plus largement de la France d'ancien régime
 
-- [Chansons et poésies satiriques du 17e siècle](%5Bhttps://satires17.univ-st-etienne.fr/%5D)
+- [Chansons et poésies satiriques du 17e siècle](https://satires17.univ-st-etienne.fr)
 
-- Projet ["Desenrollando el cordel/Démêler le cordel",](%5Bhttps://desenrollandoelcordel.unige.ch/inicio.html%5D) imprimés de large diffusion au 19e siècle 
+- Projet ["Desenrollando el cordel/Démêler le cordel"](https://desenrollandoelcordel.unige.ch/inicio.html) imprimés de large diffusion au 19e siècle 
   
 - La [Gazette de Renaudot](https://www.unicaen.fr/gazette/index.php)
 
-- La [Bibliothèque Bleue](%28https://artflsrv03.uchicago.edu/philologic4/bibbleue/%29) 
+- La [Bibliothèque Bleue](https://artflsrv03.uchicago.edu/philologic4/bibbleue) 
 
 - Les [*Nouvelles nouvelles*](http://nouvellesnouvelles.yale.edu/index.php) de Donneau de Visé
