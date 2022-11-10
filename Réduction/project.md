@@ -18,6 +18,7 @@ Les documents ont tous été dotés d'un manifest IIIF (International Image Inte
 ### Contributeurs :
 
 - [**Alexandre Bartz**](https://cv.archives-ouvertes.fr/alexandre-bartz?langChosen=fr), Ingénieur en 2021-2022, Sorbonne Université.
+-  [Claudine Nédelec],  professeuere émérite de l'univesrité d'Artois
 - [Jean-Marie Troullier](https://www.cinquantesix.com/), graphiste chargé de la conception de la charte graphique.
 - [Jean-Baptiste Tanguy](https://orcid.org/0000-0002-0007-1664), Doctorant en informatique, Sorbonne Université. 
 
