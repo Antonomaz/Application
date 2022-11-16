@@ -61,7 +61,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>98.7</td>
   </tr>
 </tbody>
-<caption>Nombres de mazarinades publiées chaque année</caption>
+<caption>Nombre de mazarinades publiées chaque année</caption>
 </table>
 
 *Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
@@ -105,9 +105,8 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>97.3</td>
   </tr>
 </tbody>
-<caption>Nombres de mazarinades par lieux de publication</caption>
+<caption>Nombre de mazarinades par lieux de publication</caption>
 </table>
-
 
 *Seules les lieux de publication indiqués au moins dix fois ont été retenus.*
 
