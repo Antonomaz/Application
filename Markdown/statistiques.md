@@ -3,15 +3,15 @@
 Du fait de la quantitié importante d'entités au sein du corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques des données encodées.
 
 <div class="button">
-	<a href="#données-issuées-des-bibliographies-anciennes">
+	<a href="#données-issues-des-bibliographies-anciennes">
 		<paper-button raised="">Bibliographies</paper-button>
 	</a>
-	<a href="#données-issuées-du-corpus-du-projet-antonomaz">
+	<a href="#données-issues-du-corpus-du-projet-antonomaz">
 		<paper-button raised="">Projet Antonomaz</paper-button>
 	</a>
 </div>
 
-## Données issuées des bibliographies anciennes
+## Données issues des bibliographies anciennes
 
 En exploitant les données issues des bibliographies du XIXe siècle, à savoir celles de C. Moreau, E. Labadie et E. Socard, il est possible de proposer quelques premières statistiques.
 
