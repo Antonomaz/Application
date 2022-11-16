@@ -11,6 +11,8 @@ Du fait de la quantitié importante d'entités au sein du corpus des mazarinades
 	</a>
 </div>
 
+
+
 ## Données issues des bibliographies anciennes
 
 En exploitant les données issues des bibliographies du XIXe siècle, à savoir celles de C. Moreau, E. Labadie et E. Socard, il est possible de proposer quelques premières statistiques.
@@ -176,5 +178,9 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
 
 ## Données issues du corpus du projet Antonomaz
+
+Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
+
+Il s'agit dans un premier temps de confronter ces données corrigées et mises à jour aux données des bibliographies du XIXe siècle. Dans un second temps, nous proposons également de comparer nos données statistiques à celles d'H. Carrier, notamment en ce qui concerne les imprimeurs.
 
 ***Les données seront publiées prochainement.***
