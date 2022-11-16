@@ -17,10 +17,12 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
+<table class="table table-striped">
 | Années             | 1648 | 1649  | 1650 | 1651 | 1652  | 1653 | 1654 | 1655 | 1656 | Total |
 |--------------------|------|-------|------|------|-------|------|------|------|------|-------|
 | Nombre d'items     | 70   | 1 805 | 490  | 588  | 1.373 | 42   | 25   | 8    | 8    | 4 409 |
 | Pourcentage (en %) | 1.5  | 40.5  | 11   | 13   | 30.8  | 0.9  | 0.6  | 0.2  | 0.2  | 98.7  |
+</table>
 
 **Nombres de mazarinades publiées chaque année**
 
@@ -28,8 +30,8 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 ### Lieux de publication
 
-- 65,2 % des documents indiquent un lieu de publication, soit 3 294 entrées
-- 34,8 % n'en indiquent pas, soit 1 761 entrées.
+- 65,2 % (3 294 entrées) des documents indiquent un lieu de publication.
+- 34,8 %  (1 761 entrées) n'en indiquent pas.
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.
 
@@ -44,8 +46,8 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 ### Nombre de pages
 
-- 92,3 % des documents indiquent un nombre de pages, soit 4 664 entrées
-- 7,7 % n'en indiquent pas, soit 391 entrées.
+- 92,3 % (4 664 entrées) des documents indiquent un nombre de pages.
+- 7,7 % (391 entrées) n'en indiquent pas.
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans nombre de pages.
 
