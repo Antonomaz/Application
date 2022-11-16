@@ -11,7 +11,7 @@ Du fait de la quantitié importante d'entités au sein du corpus des mazarinades
 	</a>
 </div>
 
-
+<br/>
 
 ## Données issues des bibliographies anciennes
 
