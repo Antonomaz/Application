@@ -25,7 +25,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 *Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
 
-#### Lieux de publication
+### Lieux de publication
 
 - 65,2 % des documents indiquent un lieu de publication, soit 3 294 entrées
 - 34,8 % n'en indiquent pas, soit 1 761 entrées.
@@ -41,7 +41,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 *Seules les lieux de publication indiqués au moins dix fois ont été retenus.*
 
-#### Nombre de pages
+### Nombre de pages
 
 - 92,3 % des documents indiquent un lieu de publication, soit 4 664 entrées
 - 7,7 % n'en indiquent pas, soit 391 entrées.
