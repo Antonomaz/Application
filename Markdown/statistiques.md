@@ -98,7 +98,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
   <tr>
     <th scope="row">Poucentage (en %)</th>
     <td>3</td>
-    <td>91.3>/td>
+    <td>91.3</td>
     <td>1</td>
     <td>1</td>
     <td>1</td>>
