@@ -20,6 +20,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 |--------------------|------|-------|------|------|-------|------|------|------|------|-------|
 | Nombre d'items     | 70   | 1 805 | 490  | 588  | 1.373 | 42   | 25   | 8    | 8    | 4 409 |
 | Pourcentage (en %) | 1.5  | 40.5  | 11   | 13   | 30.8  | 0.9  | 0.6  | 0.2  | 0.2  | 98.7  |
+
 **Nombres de mazarinades publiées chaque année**
 
 *Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
@@ -35,6 +36,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 |----------------------|----------|-------|----------|-------|-----------------------|-------|
 | Nombre d'items       | 87       | 3 010 | 34       | 33    | 32                    | 3 196 |
 | Pourcentage (en %)   | 3        | 91.3  | 1        | 1     | 1                     | 97.3  |
+
 **Nombres de mazarinades par lieux de publication**
 
 *Seules les lieux de publication indiqués au moins dix fois ont été retenus.*
@@ -50,6 +52,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 |-------------------|-----|-----|-----|-------|-----|-----|----|-----|-----|-------|
 | Nombre d'items    | 517 | 273 | 914 | 1 371 | 132 | 195 | 93 | 167 | 178 | 3840  |
 | Poucentage (en %) | 11  | 6   | 20  | 29    | 3   | 4   | 2  | 3.5 | 4   | 82.5  |
+
 **Nombre de pages par mazarinade**
 
 Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
