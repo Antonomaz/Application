@@ -13,18 +13,56 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 - 88 % (4 447 entrées) des documents indiquent une date de publication.
 - 12 % (608 entrées) n'en indiquent pas.
-- 71 % des mazarinades ont été publiées pendant les deux années les plus productives : 1649 et 1652.
+	- 71 % des mazarinades ont été publiées pendant les deux années les plus productives : 1649 et 1652.
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
-
-| Années             | 1648 | 1649  | 1650 | 1651 | 1652  | 1653 | 1654 | 1655 | 1656 | Total |
-|--------------------|------|-------|------|------|-------|------|------|------|------|-------|
-| Nombre d'items     | 70   | 1 805 | 490  | 588  | 1.373 | 42   | 25   | 8    | 8    | 4 409 |
-| Pourcentage (en %) | 1.5  | 40.5  | 11   | 13   | 30.8  | 0.9  | 0.6  | 0.2  | 0.2  | 98.7  |
-
-
-**Nombres de mazarinades publiées chaque année**
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Années de pub.</th>
+    <th scope="col">1648</th>
+    <th scope="col">1649</th>
+    <th scope="col">1650</th>
+    <th scope="col">1651</th>
+    <th scope="col">1652</th>
+    <th scope="col">1653</th>
+    <th scope="col">1654</th>
+    <th scope="col">1655</th>
+    <th scope="col">1656</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Nombre d'items</th>
+    <td>70</td>
+    <td>1 805</td>
+    <td>490</td>
+    <td>588</td>
+    <td>1 373</td>
+    <td>42</td>
+    <td>25</td>
+    <td>9</td>
+    <td>8</td>
+    <td>4 409</td>
+  </tr>
+  <tr>
+    <th scope="row">Poucentage (en %)</th>
+    <td>1.5</td>
+    <td>40.5</td>
+    <td>11</td>
+    <td>12</td>
+    <td>30.8</td>
+    <td>O.9</td>
+    <td>0.6</td>
+    <td>0.2</td>
+    <td>0.2</td>
+    <td>98.7</td>
+  </tr>
+</tbody>
+<caption>Nombres de mazarinades publiées chaque année</caption>
+</table>
 
 *Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
 
@@ -35,12 +73,42 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.
 
-| Lieux de publication | Bordeaux | Paris | Pontoise | Rouen | Saint-Germain-en-Laye | Total |
-|----------------------|----------|-------|----------|-------|-----------------------|-------|
-| Nombre d'items       | 87       | 3 010 | 34       | 33    | 32                    | 3 196 |
-| Pourcentage (en %)   | 3        | 91.3  | 1        | 1     | 1                     | 97.3  |
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Lieux de publication</th>
+    <th scope="col">Bordeaux</th>
+    <th scope="col">Paris</th>
+    <th scope="col">Pontoise</th>
+    <th scope="col">Rouen</th>
+    <th scope="col">Saint-Germain-en-Laye</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Nombre d'items</th>
+    <td>97</td>
+    <td>3 010</td>
+    <td>34</td>
+    <td>33</td>
+    <td>32</td>
+    <td>3 196</td>
+  </tr>
+  <tr>
+    <th scope="row">Poucentage (en %)</th>
+    <td>3</td>
+    <td>91.3>/td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>>
+    <td>4</td>
+    <td>97.3</td>
+  </tr>
+</tbody>
+<caption>Nombres de mazarinades par lieux de publication</caption>
+</table>
 
-**Nombres de mazarinades par lieux de publication**
 
 *Seules les lieux de publication indiqués au moins dix fois ont été retenus.*
 
@@ -95,9 +163,9 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>82.5</td>
   </tr>
 </tbody>
+<caption>Nombre de pages par mazarinade</caption>
 </table>
 
-**Nombre de pages par mazarinade**
 
 Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
 
