@@ -102,7 +102,6 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>1</td>
     <td>1</td>
     <td>1</td>>
-    <td>4</td>
     <td>97.3</td>
   </tr>
 </tbody>
