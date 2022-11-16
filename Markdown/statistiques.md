@@ -17,12 +17,12 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
-<table class="table table-striped">
+
 | Années             | 1648 | 1649  | 1650 | 1651 | 1652  | 1653 | 1654 | 1655 | 1656 | Total |
 |--------------------|------|-------|------|------|-------|------|------|------|------|-------|
 | Nombre d'items     | 70   | 1 805 | 490  | 588  | 1.373 | 42   | 25   | 8    | 8    | 4 409 |
 | Pourcentage (en %) | 1.5  | 40.5  | 11   | 13   | 30.8  | 0.9  | 0.6  | 0.2  | 0.2  | 98.7  |
-</table>
+
 
 **Nombres de mazarinades publiées chaque année**
 
@@ -51,10 +51,51 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans nombre de pages.
 
-| Nombre de pages   | 4   | 6   | 7   | 8     | 11  | 12  | 14 | 15  | 16  | Total |
-|-------------------|-----|-----|-----|-------|-----|-----|----|-----|-----|-------|
-| Nombre d'items    | 517 | 273 | 914 | 1 371 | 132 | 195 | 93 | 167 | 178 | 3840  |
-| Poucentage (en %) | 11  | 6   | 20  | 29    | 3   | 4   | 2  | 3.5 | 4   | 82.5  |
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Nombre de pages</th>
+    <th scope="col">4</th>
+    <th scope="col">6</th>
+    <th scope="col">7</th>
+    <th scope="col">8</th>
+    <th scope="col">11</th>
+    <th scope="col">12</th>
+    <th scope="col">14</th>
+    <th scope="col">15</th>
+    <th scope="col">16</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Nombre d'items</th>
+    <td>517</td>
+    <td>273</td>
+    <td>914</td>
+    <td>1 371</td>
+    <td>132</td>
+    <td>195</td>
+    <td>93</td>
+    <td>167</td>
+    <td>178</td>
+    <td>3840</td>
+  </tr>
+  <tr>
+    <th scope="row">Poucentage (en %)</th>
+    <td>11</td>
+    <td>6</td>
+    <td>20</td>
+    <td>29</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3.5</td>
+    <td>4</td>
+    <td>82.5</td>
+  </tr>
+</tbody>
+</table>
 
 **Nombre de pages par mazarinade**
 
