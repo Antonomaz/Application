@@ -1,4 +1,4 @@
-# Statistiques
+# STATISTIQUES
 
 Du fait de la quantitié importante d'entités au sein du corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques des données encodées.
 
@@ -181,6 +181,33 @@ Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
-Il s'agit dans un premier temps de confronter ces données corrigées et mises à jour aux données des bibliographies du XIXe siècle. Dans un second temps, nous proposons également de comparer nos données statistiques à celles d'H. Carrier, notamment en ce qui concerne les imprimeurs.
+### Statistiques proposées par H. Carrier
+
+En introduction, nous nous proposons de rappeler les statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
+
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Informations</th>
+    <th scope="col">Aucune</th>
+    <th scope="col">Lieu et/ou année de publication</th>
+    <th scope="col">Adresse typographique complète</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Poucentage (en %)</th>
+    <td>16</td>
+    <td>31</td>
+    <td>53</td>
+    <td>100</td>
+  </tr>
+</tbody>
+<caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
+</table>
+
+Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649,, ils ne sont plus que 38% en 1652.
+
 
 ***Les données seront publiées prochainement.***
