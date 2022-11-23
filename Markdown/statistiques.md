@@ -177,6 +177,8 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
 
+<br/>
+
 ## Données issues du corpus du projet Antonomaz
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
