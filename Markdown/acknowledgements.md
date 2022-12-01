@@ -27,7 +27,7 @@ Autres visuels :
 - Bernard Samuel, *Le Retour de Gonesse*, 1649. Paris Musées, [en ligne](https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-retour-de-gonesse), ([sous licence CC BY 1.0](https://creativecommons.org/publicdomain/zero/1.0/)).
 - *Le Savoyard, Orphée du Pont-neuf*, [s. d.], gallica.bnf.fr / Bibliothèque nationale de France, [en ligne](https://gallica.bnf.fr/ark:/12148/btv1b84340768.item), ([cf. licence Gallica](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica)).
 - Musique notée, air des "triolets", *Recueil de chansons choisies en vaudevilles. Pour servir à Lhistoire Anecdotte depuis 1697 Jusques à 1731* (extrait), 1731, gallica.bnf.fr / Bibliothèque nationale de France, [en ligne](https://gallica.bnf.fr/ark:/12148/btv1b10542312d/f52.item.r=vma%20ms%207), ([cf. licence Gallica](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica)).
-- Musique notée, air de "Jean de vert", Ms BNF fonds français 12666, p. XI. [cf. licence BnF](https://www.bnf.fr/fr/conditions-de-reutilisations-des-donnees-de-la-bnf)).
+- Musique notée, air de "Jean de vert", Ms BNF fonds français 12666, p. XI., ([cf. licence BnF](https://www.bnf.fr/fr/conditions-de-reutilisations-des-donnees-de-la-bnf)).
 - Musique notée, air de "la petite fronde"/"tous les capucins du monde", *Recueil de chansons choisies en vaudeville, pour servir à l'histoire anecdote*, [s. d.], gallica.bnf.fr / Bibliothèque nationale de France. [en ligne](https://gallica.bnf.fr/ark:/12148/btv1b10557275w/f9.item.r=chansons%20pour%20servir%20%C3%A0%20l'histoire%20anecdotte), ([cf. licence Gallica](https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica)).
 
 
