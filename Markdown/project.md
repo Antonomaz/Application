@@ -5,7 +5,7 @@
 Le projet **Antonomaz** (ANalyse auTOmatique et NumérisatiOn des MAZarinades) donne accès à un vaste ensemble de *mazarinades*. Ces écrits parus pendant la Fronde, presque toujours brefs et souvent polémiques, visent les personnalités politiques du temps : Mazarin, mais aussi le Prince de Condé, ou le Parlement par exemple, car ils émanent de tous les camps politiques. Ils peuvent aussi simplement relater des faits d'actualité. Imprimés pour la plupart, ils ont représenté une explosion de la production de petits livres dans la librairie du 17e siècle.
 
 Le présent site donne accès à plus de 3000 documents qui représentent environ les 2/3 des entités repérées comme "mazarinades" (5 000 à 6 000 entités, en tout, à raison de plusieurs centaines d'exemplaires par édition). 
-Les documents ont été océrisés et encodés en XML-TEI, dans une archive disponible en *open source* ici : https://doi.org/10.5281/zenodo.7443103
+Les documents ont été océrisés et encodés en XML-TEI, dans une archive disponible en *open source* ici : https://doi.org/10.5281/zenodo.7443183
 
 Il est possible de feuilleter les documents sous leur format image, ou de faire des recherches directement dans le texte. L'utilisateur peut aussi rassembler des séries de documents selon leur auteur, leur imprimeur, des mots de leur titre, leur date, etc., pour faire des corpus cohérents selon son intérêt de recherche. À moyen terme des recherches linguistiques plus avancées seront possibles. Des notices donnent des informations historiques pour mieux comprendre ces textes ancrés dans leur actualité et qui nécessitent une connaissance du contexte pour être compris.
 
