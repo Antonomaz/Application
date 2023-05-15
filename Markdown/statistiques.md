@@ -149,8 +149,8 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (*La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
-Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes. 
-Seules 10% de cet échantillon de mazarinades affichent donc un nom d'auteur, et 90 % effacent leur origine énonciative.
+**Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes. 
+Seules 10% de cet échantillon de mazarinades affichent donc un nom d'auteur, et 90 % effacent leur origine énonciative.**
 
 Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
 
@@ -159,7 +159,7 @@ Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes m�
 
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
-**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
+**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
 Données à venir.
 
