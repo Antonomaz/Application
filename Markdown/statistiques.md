@@ -119,7 +119,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 <caption>Nombre de mazarinades par lieu de publication</caption>
 </table>
 
-*Seules les lieux de publication indiqués au moins dix fois ont été retenus.*
+*Seuls les lieux de publication indiqués au moins dix fois ont été retenus.*
 
 ### Nombre de pages
 
