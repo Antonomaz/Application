@@ -1,6 +1,7 @@
 # STATISTIQUES
 
-Du fait de la quantitié importante d'entités au sein du corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques des données encodées.
+Vu le nombre important d'entités dans le corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques des données encodées.
+Nous le faisons à partir de deux jues de données différents : les métadonnées issues de la tradition bibliographique (les plus complètes), et celles issues du corpus Antonomaz, moins complètes (2/3 de cet ensemble), mais plus précises sur certains points.
 
 <div class="button">
 	<a href="#données-issues-des-bibliographies-anciennes">
