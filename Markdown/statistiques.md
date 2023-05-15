@@ -138,7 +138,7 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
-### Taux d'anonymat (noms d'auteurs indiqués ou non)
+### Taux d'anonymat 
 
 **Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
