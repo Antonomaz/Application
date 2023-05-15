@@ -14,7 +14,7 @@ Nous le faisons à partir de deux jeux de données combinés : les métadonnée
 
 <br/>
 
-## Données issues des bibliographies anciennes (environ 5050 mazarinades recensées)
+## Calculs à partir des données issues des bibliographies anciennes (environ 5050 mazarinades recensées)
 
 En exploitant les données issues des bibliographies du XIXe siècle, à savoir celles de C. Moreau, E. Labadie et E. Socard, il est possible de proposer quelques premières statistiques.
 
@@ -134,7 +134,7 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
 <br/>
 <hr/>
 
-## Données issues de l'échantillon Antonomaz (3065 mazarinades, 2/3 des mazarinades connues)
+## Calcul à partir de l'échantillon Antonomaz (3065 mazarinades, 2/3 des mazarinades connues)
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
