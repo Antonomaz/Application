@@ -183,9 +183,9 @@ Son chiffre rend donc compte de l'anonymat affich√© (il compte comme anonymes m√
 <tbody>
   <tr>
     <th scope="row">Pourcentage</th>
-    <td>16 %</td>
-    <td>31 %</td>
-    <td>53 %</td>
+    <td>44,3 %</td>
+    <td>0,3 %</td>
+    <td>55,4 %</td>
     <td>100 %</td>
   </tr>
 </tbody>
