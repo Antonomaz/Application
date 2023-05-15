@@ -29,9 +29,8 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
 <table class='table table-striped'>
-<tr><th scope='col'></th><th scope='col'>Total</th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
-<tr><th scope='col'>Référencées</th><th scope='col'>5062 (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
-<tr><th scope='col'>Antonomaz</th><th scope='col'>3248 (64.16%)</th><th scope='col'>34 (0.67%)</th><th scope='col'>1442 (28.49%)</th><th scope='col'>275 (5.43%)</th><th scope='col'>311 (6.14%)</th><th scope='col'>948 (18.73%)</th><th scope='col'>8 (0.16%)</th><th scope='col'>12 (0.24%)</th><th scope='col'>4 (0.08%)</th><th scope='col'>212 (4.19%)</th></tr>
+<tr><th scope='col'></th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
+<tr><th scope='col'>5062 (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
 </table>
 
 
