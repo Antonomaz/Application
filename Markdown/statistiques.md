@@ -216,7 +216,7 @@ Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes m�
     <td>100 %</td>
   </tr>
 </tbody>
-<caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
+<caption>Présence et absence des adresses typographiques dans les mazarinades (Antonomaz)</caption>
 </table>
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
