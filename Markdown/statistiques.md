@@ -1,7 +1,7 @@
 # STATISTIQUES
 
 Vu le nombre important d'entités dans le corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques.
-Nous le faisons à partir de deux jeux de données combinés : les métadonnées issues de la tradition bibliographique (les plus complètes), et celles issues du corpus Antonomaz, moins complètes (2/3 de cet ensemble), mais plus précises sur certains points.
+Nous le faisons à partir de deux jeux de données combinés : les métadonnées issues de la tradition bibliographique (les plus complètes), et celles issues du corpus Antonomaz, moins complètes (2/3 de cet ensemble), mais plus précises sur certains points (présence ou non d'un nom d'auteur et d'un nom d'imprimeur libraire).
 
 <div class="button">
 	<a href="#données-issues-des-bibliographies-anciennes">
@@ -165,7 +165,7 @@ En introduction, nous nous proposons de rappeler les statistiques établies sur 
 <caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
 </table>
 
-Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649,, ils ne sont plus que 38% en 1652.
+Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
 
 
 ***Les données seront publiées prochainement.***
