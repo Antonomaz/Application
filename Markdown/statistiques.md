@@ -147,7 +147,7 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
-H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
+H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (*La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
 Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes. 
 90 % des mazarinades effacent donc leur origine énonciative.
