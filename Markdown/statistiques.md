@@ -135,7 +135,7 @@ La moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 
 <br/>
 <hr/>
 
-## Données issues du corpus du projet Antonomaz
+## Données issues de l'échantillon Antonomaz (3065 mazarinades, 2/3 des mazarinades connues)
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
