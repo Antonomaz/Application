@@ -56,7 +56,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 </thead>
 <tbody>
   <tr>
-    <th scope="row">Nombre d'items</th>
+    <th scope="row">Nombre de mazarinades</th>
     <td>97</td>
     <td>3 010</td>
     <td>34</td>
@@ -101,7 +101,7 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
 </thead>
 <tbody>
   <tr>
-    <th scope="row">Nombre d'items</th>
+    <th scope="row">Nombre de mazarinades</th>
     <td>517</td>
     <td>273</td>
     <td>914</td>
