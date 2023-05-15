@@ -74,7 +74,6 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>97.3 %</td>
   </tr>
 </tbody>
-<caption>Nombre de mazarinades par lieu de publication</caption>
 </table>
 
 *Seuls les lieux de publication indiqués au moins dix fois ont été retenus.*
