@@ -141,7 +141,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 ### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
-#### Statistiques proposées par H. Carrier
+#### Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
@@ -169,8 +169,19 @@ H. Carrier avait proposé des statistiques établies sur un ensemble "d'un milli
 
 Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
 
+#### Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
+Données à venir.
+
 ### Anonymat (noms d'auteurs indiqués ou non)
 
-#### Statistiques proposées par H. Carrier
+#### Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
+Hubert Carrier estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes. 
+90 % des mazarinades effacent donc leur origine énonciative.
+Il travaille sur son échantillon de 1000 mazarinades, et en excluant les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
+Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
+
+#### Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
+Sur Antonomaz, 57 % d’écrits (1748 imprimés) seulement restent sans nom d'auteurs connus.
+La différence avec le calcul d'H. Carrier, 
 
 ***Les données seront publiées prochainement.***
