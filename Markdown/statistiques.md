@@ -14,7 +14,7 @@ Nous le faisons à partir de deux jeux de données combinés : les métadonnée
 
 <br/>
 
-## Données issues des bibliographies anciennes (environ 5050 mazariandes recensées)
+## Données issues des bibliographies anciennes (environ 5050 mazarinades recensées)
 
 En exploitant les données issues des bibliographies du XIXe siècle, à savoir celles de C. Moreau, E. Labadie et E. Socard, il est possible de proposer quelques premières statistiques.
 
