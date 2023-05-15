@@ -85,10 +85,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 ### Nombre de pages
 
-- 92,3 % (4 664 entrées) des documents indiquent un nombre de pages.
-- 7,7 % (391 entrées) n'en indiquent pas.
-
-Les données suivantes ont été calculées après avoir retiré les entrées sans nombre de pages.
+Les données suivantes ont été calculées à partir des 4 664 entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages.
 
 <table class="table table-striped">
 <thead>
