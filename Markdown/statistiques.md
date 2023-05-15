@@ -31,7 +31,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 <table class='table table-striped'>
 <tr><th scope='col'></th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
-<tr><th scope='col'>5062 (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
+<tr><th scope='col'>5062 mazarinades (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>3 196</td>
   </tr>
   <tr>
-    <th scope="row">Poucentage</th>
+    <th scope="row">Pourcentage</th>
     <td>3 %</td>
     <td>91.3 %</td>
     <td>1 %</td>
@@ -114,7 +114,7 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
     <td>3840</td>
   </tr>
   <tr>
-    <th scope="row">Poucentage</th>
+    <th scope="row">Pourcentage</th>
     <td>11 %</td>
     <td>6 %</td>
     <td>20 %</td>
