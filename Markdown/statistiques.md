@@ -65,13 +65,13 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
     <td>3 196</td>
   </tr>
   <tr>
-    <th scope="row">Poucentage (en %)</th>
-    <td>3</td>
-    <td>91.3</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>97.3</td>
+    <th scope="row">Poucentage</th>
+    <td>3 %</td>
+    <td>91.3 %</td>
+    <td>1 %</td>
+    <td>1 %</td>
+    <td>1 %</td>
+    <td>97.3 %</td>
   </tr>
 </tbody>
 <caption>Nombre de mazarinades par lieu de publication</caption>
@@ -114,17 +114,17 @@ Les données suivantes ont été calculées à partir des 4 664 entrées des bib
     <td>3840</td>
   </tr>
   <tr>
-    <th scope="row">Poucentage (en %)</th>
-    <td>11</td>
-    <td>6</td>
-    <td>20</td>
-    <td>29</td>
-    <td>3</td>
-    <td>4</td>
-    <td>2</td>
-    <td>3.5</td>
-    <td>4</td>
-    <td>82.5</td>
+    <th scope="row">Poucentage</th>
+    <td>11 %</td>
+    <td>6 %</td>
+    <td>20 %</td>
+    <td>29 %</td>
+    <td>3 %</td>
+    <td>4 %</td>
+    <td>2 %</td>
+    <td>3.5 %</td>
+    <td>4 %</td>
+    <td>82.5 %</td>
   </tr>
 </tbody>
 <caption>Nombre de pages par mazarinade</caption>
@@ -157,11 +157,11 @@ H. Carrier avait proposé des statistiques établies sur un ensemble "d'un milli
 </thead>
 <tbody>
   <tr>
-    <th scope="row">Poucentage (en %)</th>
-    <td>16</td>
-    <td>31</td>
-    <td>53</td>
-    <td>100</td>
+    <th scope="row">Poucentage</th>
+    <td>16 %</td>
+    <td>31 %</td>
+    <td>53 %</td>
+    <td>100 %</td>
   </tr>
 </tbody>
 <caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
