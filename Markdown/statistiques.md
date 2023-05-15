@@ -145,6 +145,34 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 Sur Antonomaz, 57 % d’écrits (1748 imprimés) sont sans nom d'auteurs.
 Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document) ou qu'il est mentionné d'une manière quelconque (initiales, pseudonymes), l'imprimé n'est pas compté comme anonyme.
 
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Informations</th>
+    <th scope="col">Aucun nom</th>
+    <th scope="col">Pseudonyme</th>
+    <th scope="col">Nom d'auteur</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+	  <tr>
+    <th scope="row">Nombre de mazarinades</th>
+    <td>1530</td>
+    <td>218</td>
+    <td>1317</td>
+    <td>3065</td>
+  </tr>
+<tbody>
+  <tr>
+    <th scope="row">Pourcentage</th>
+    <td>49,9 %</td>
+    <td>7,1 %</td>
+    <td>43 %</td>
+    <td>100 %</td>
+  </tr>
+</tbody>
+<caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
+</table>
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
