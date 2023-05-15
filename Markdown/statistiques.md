@@ -141,7 +141,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 #### Anonymat (noms d'auteurs indiqués ou non)
 
-**Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
+**Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
@@ -152,13 +152,13 @@ IL exclut les pièces officielles types actes royaux, mais aussi "lettres authen
 Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
 
-**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
+**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
 Sur Antonomaz, 57 % d’écrits (1748 imprimés) seulement restent sans nom d'auteurs connus.
 La différence avec le calcul d'H. Carrier, 
 
 ### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
-**Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
+**Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier travaille toujours échantillon de 1000 mazarinades calibrées en fonction des genres et des années.
 
