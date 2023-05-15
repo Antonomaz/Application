@@ -23,9 +23,9 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 ###  Dates de publication
 
-- 88 % (4 447 entrées) des documents indiquent une date de publication.
-- 12 % (608 entrées) n'en indiquent pas.
-	- 71 % des mazarinades ont été publiées pendant les deux années les plus productives : 1649 et 1652.
+- 88 % des documents (4460 imprimés) indiquent une date de publication.
+- 12 % environ (602 imprimés) n'en indiquent pas.
+	- 63 % environ des mazarinades (3198 imprimés) ont été publiées pendant les deux années les plus productives : 1649 et 1652.
 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
