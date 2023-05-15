@@ -138,7 +138,7 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
-### Anonymat (noms d'auteurs indiqués ou non)
+### Taux d'anonymat (noms d'auteurs indiqués ou non)
 
 **Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
@@ -156,7 +156,7 @@ Il exclut les pièces officielles types actes royaux, mais aussi "lettres authen
 Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
 
-### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
+### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier travaille toujours échantillon de 1000 mazarinades calibrées en fonction des genres et des années.
