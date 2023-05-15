@@ -39,7 +39,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 *Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
 
-### Lieux de publication
+### Lieux de publication (villes)
 
 - 65,2 % (3 294 entrées) des documents indiquent un lieu de publication.
 - 34,8 %  (1 761 entrées) n'en indiquent pas.
