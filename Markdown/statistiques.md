@@ -142,7 +142,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 **Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
-Sur Antonomaz, 57 % d’écrits (1748 imprimés) seulement restent sans nom d'auteurs.
+Sur Antonomaz, 57 % d’écrits (1748 imprimés) sont sans nom d'auteurs.
 Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document) ou qu'il est mentionné d'une manière quelconque (initiales, pseudonymes), l'imprimé sort du champ des anonymes.
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
