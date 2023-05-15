@@ -153,10 +153,15 @@ Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes.
 90 % des mazarinades effacent donc leur origine énonciative.
 
 Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
-Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
+Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonyme même les pièces dont l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). Le chiffre ne reflète donc pas le savoir sur les auteurs qu'on peut avoir aujourd'hui, mais est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
 
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
+
+**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
+
+Données à venir.
+
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier travaille toujours sur un échantillon de 1000 mazarinades calibrées en fonction des genres et des années.
@@ -184,8 +189,3 @@ H. Carrier travaille toujours sur un échantillon de 1000 mazarinades calibrées
 </table>
 
 Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
-
-**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)
-Données à venir.
-
-***Les données seront publiées prochainement.***
