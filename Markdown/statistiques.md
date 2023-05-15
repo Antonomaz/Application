@@ -29,12 +29,11 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
 <table class='table table-striped'>
-<tr><td></td><td>Total</td><td>1648</td><td>1649</td><td>1650</td><td>1651</td><td>1652</td><td>1653</td><td>1654</td><td>Après 1654</td><td>Sans Date</td></tr>
-<tr><td>Référencées</td><td>5062 (100.0%)</td><td>70 (1.38%)</td><td>1817 (35.89%)</td><td>493 (9.74%)</td><td>598 (11.81%)</td><td>1381 (27.28%)</td><td>42 (0.83%)</td><td>25 (0.49%)</td><td>29 (0.57%)</td><td>602 (11.89%)</td></tr>
-<tr><td>Antonomaz</td><td>3248 (64.16%)</td><td>34 (0.67%)</td><td>1442 (28.49%)</td><td>275 (5.43%)</td><td>311 (6.14%)</td><td>948 (18.73%)</td><td>8 (0.16%)</td><td>12 (0.24%)</td><td>4 (0.08%)</td><td>212 (4.19%)</td></tr>
+<tr><th scope='col'></th><th scope='col'>Total</th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
+<tr><th scope='col'>Référencées</th><th scope='col'>5062 (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
+<tr><th scope='col'>Antonomaz</th><th scope='col'>3248 (64.16%)</th><th scope='col'>34 (0.67%)</th><th scope='col'>1442 (28.49%)</th><th scope='col'>275 (5.43%)</th><th scope='col'>311 (6.14%)</th><th scope='col'>948 (18.73%)</th><th scope='col'>8 (0.16%)</th><th scope='col'>12 (0.24%)</th><th scope='col'>4 (0.08%)</th><th scope='col'>212 (4.19%)</th></tr>
 </table>
 
-*Il reste des valeurs extrêmes, probablement fausses, qui nécessitent une vérification plus approfondie.*
 
 ### Lieux de publication (villes)
 
