@@ -140,9 +140,9 @@ Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahie
 
 Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
 
-#### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
+### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
-### Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
+#### Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
