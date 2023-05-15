@@ -134,7 +134,7 @@ Les données suivantes ont été calculées à partir des 4 664 entrées des bib
 <caption>Nombre de pages par mazarinade</caption>
 </table>
 
-Les mazarinades comportent en moyenne 13 pages. La médiane est de 8 pages.
+La moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).
 
 <br/>
 <hr/>
