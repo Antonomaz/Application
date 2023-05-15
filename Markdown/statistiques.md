@@ -167,7 +167,7 @@ H. Carrier travaille toujours sur un échantillon de 1000 mazarinades calibrées
     <th scope="col">Informations</th>
     <th scope="col">Aucune</th>
     <th scope="col">Lieu et/ou année de publication</th>
-    <th scope="col">Adresse typographique complète</th>
+    <th scope="col">Lieu, date, nom d'imprimeur</th>
     <th scope="col">Total</th>
   </tr>
 </thead>
