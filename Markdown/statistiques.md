@@ -145,6 +145,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 Sur Antonomaz, 57 % d’écrits (1748 imprimés) sont sans nom d'auteurs.
 Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document) ou qu'il est mentionné d'une manière quelconque (initiales, pseudonymes), l'imprimé n'est pas compté comme anonyme.
 
+
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (*La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
@@ -161,7 +162,7 @@ Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes m�
 
 **Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
 
-55 % de mazarinades inscrivent une adresse typographique complète (environ la même proportion que celle indiquée par Carrier _infra_)
+55 % de mazarinades inscrivent une adresse typographique complète (environ la même proportion que celle indiquée par Carrier _infra_). Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés ; cela représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
  
 <table class="table table-striped">
 <thead>
