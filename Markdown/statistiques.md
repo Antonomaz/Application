@@ -160,8 +160,37 @@ Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes m�
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
 **Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
-
-Données à venir.
+1700 écrits avec noms
+1361 écrits sont dépourvus de noms d'imprimeurs-libraires.
+4 pseudonymes
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">Informations</th>
+    <th scope="col">Aucun nom</th>
+    <th scope="col">Pseudonyme</th>
+    <th scope="col">Nom d'imprimeur</th>
+    <th scope="col">Total</th>
+  </tr>
+</thead>
+	  <tr>
+    <th scope="row">Nombre de mazarinades</th>
+    <td>1361</td>
+    <td>4</td>
+    <td>1700</td>
+    <td>3065</td>
+  </tr>
+<tbody>
+  <tr>
+    <th scope="row">Pourcentage</th>
+    <td>16 %</td>
+    <td>31 %</td>
+    <td>53 %</td>
+    <td>100 %</td>
+  </tr>
+</tbody>
+<caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
+</table>
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
@@ -179,7 +208,7 @@ H. Carrier travaille toujours sur un échantillon de 1000 mazarinades calibrées
 </thead>
 <tbody>
   <tr>
-    <th scope="row">Poucentage</th>
+    <th scope="row">Pourcentage</th>
     <td>16 %</td>
     <td>31 %</td>
     <td>53 %</td>
