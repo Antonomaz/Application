@@ -140,6 +140,11 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 ### Anonymat (noms d'auteurs indiqués ou non)
 
+**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
+
+Sur Antonomaz, 57 % d’écrits (1748 imprimés) seulement restent sans nom d'auteurs.
+Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document) ou qu'il est mentionné d'une manière quelconque (initiales, pseudonymes), l'imprimé sort du champ des anonymes.
+
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
@@ -150,11 +155,6 @@ Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes.
 IL exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
 Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
-
-**Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)**
-
-Sur Antonomaz, 57 % d’écrits (1748 imprimés) seulement restent sans nom d'auteurs connus.
-La différence avec le calcul d'H. Carrier tient entre autres à la manière de définir l'anonymat : dès que nous avons pu idnetifier l'auteur dans les métadonnées, l'imprimé sort du champ des anonymes.
 
 ### Anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
