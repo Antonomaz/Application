@@ -159,7 +159,7 @@ Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous e
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
-H. Carrier travaille toujours échantillon de 1000 mazarinades calibrées en fonction des genres et des années.
+H. Carrier travaille toujours sur un échantillon de 1000 mazarinades calibrées en fonction des genres et des années.
 
 <table class="table table-striped">
 <thead>
