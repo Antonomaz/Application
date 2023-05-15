@@ -152,7 +152,7 @@ H. Carrier avait proposé des statistiques établies sur un ensemble "d'un milli
 Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes. 
 90 % des mazarinades effacent donc leur origine énonciative.
 
-IL exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
+Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
 Son chiffre rend donc compte de l'anonymat affiché (même quand l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). C'est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
 
