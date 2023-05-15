@@ -29,9 +29,9 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
 <table id="myTable">
-<tr><td></td><td>Total</td><td>1648</td><td>1649</td><td>1650</td><td>1651</td><td>1652</td><td>1653</td><td>1654</td><td>Après 
+<tr><td></td><td>1648</td><td>1649</td><td>1650</td><td>1651</td><td>1652</td><td>1653</td><td>1654</td><td>Après 
 1654</td><td>Sans Date</td></tr>
-<tr><td>Référencées</td><td>5062 (100.0%)</td><td>70 
+<tr><td>5062 (100.0%)</td><td>70 
 (1.38%)</td><td>1817 (35.89%)</td><td>493 (9.74%)</td><td>598 
 (11.81%)</td><td>1381 (27.28%)</td><td>42 (0.83%)</td><td>25 
 (0.49%)</td><td>29 (0.57%)</td><td>602 (11.89%)</td></tr>
