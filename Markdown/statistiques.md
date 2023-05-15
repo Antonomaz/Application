@@ -143,7 +143,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 #### Statistiques proposées par H. Carrier
 
-En introduction, nous nous proposons de rappeler les statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
+H. Carrier avait proposé des statistiques établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (cf. Carrier, Hubert, *La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
 
 <table class="table table-striped">
 <thead>
@@ -169,7 +169,8 @@ En introduction, nous nous proposons de rappeler les statistiques établies sur 
 
 Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
 
-
 ### Anonymat (noms d'auteurs indiqués ou non)
+
+#### Statistiques proposées par H. Carrier
 
 ***Les données seront publiées prochainement.***
