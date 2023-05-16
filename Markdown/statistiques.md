@@ -169,7 +169,7 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
     <td>100 %</td>
   </tr>
 </tbody>
-<caption>Présence et absence des adresses typographiques dans les mazarinades (H. Carrier)</caption>
+<caption>Présence et absence des adresses typographiques dans les mazarinades (Antonomaz)</caption>
 </table>
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
