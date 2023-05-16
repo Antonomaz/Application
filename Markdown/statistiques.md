@@ -77,7 +77,8 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 </table>
 
 *Seuls les lieux de publication indiqués au moins dix fois ont été retenus.*
-*Ces données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.*
+
+*Ces données ont été calculées après avoir retiré les entrées sans lieu de publication.*
 
 ### Nombre de pages
 
