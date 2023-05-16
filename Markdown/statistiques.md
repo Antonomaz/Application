@@ -27,13 +27,13 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 - 12 % environ (602 imprimés) n'en indiquent pas.
 	- 63 % environ des mazarinades (3198 imprimés) ont été publiées pendant les deux années les plus productives : 1649 et 1652.
 
-Les données suivantes ont été calculées après avoir retiré les entrées sans date de publication.
 
 <table class='table table-striped'>
 <tr><th scope='col'></th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
 <tr><th scope='col'>5062 mazarinades (100.0%)</th><th scope='col'>70 (1.38%)</th><th scope='col'>1817 (35.89%)</th><th scope='col'>493 (9.74%)</th><th scope='col'>598 (11.81%)</th><th scope='col'>1381 (27.28%)</th><th scope='col'>42 (0.83%)</th><th scope='col'>25 (0.49%)</th><th scope='col'>29 (0.57%)</th><th scope='col'>602 (11.89%)</th></tr>
 </table>
 
+*Ces données ont été calculées après avoir retiré les entrées sans date de publication.*
 
 ### Lieux de publication (villes)
 
@@ -41,7 +41,6 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 - 34,8 %  (1 761 imprimés) ne l'indiquent pas.
 	- 91 % des mazariandes sont imprimées à Paris.
 	
-Les données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.
 
 <table class="table table-striped">
 <thead>
@@ -78,6 +77,7 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 </table>
 
 *Seuls les lieux de publication indiqués au moins dix fois ont été retenus.*
+*Ces données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.*
 
 ### Nombre de pages
 
