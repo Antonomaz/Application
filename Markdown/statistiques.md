@@ -81,7 +81,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 ### Nombre de pages
 
 Les données suivantes ont été calculées à partir des 4 664 entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages.
-Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).
+**Il apparait que presque la moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).**
 
 <table class="table table-striped">
 <thead>
@@ -227,4 +227,4 @@ Sur son échantillon de 1000 mazarinades calibrées en fonction des genres et de
 
 **Globlament donc on peut affirmer qu'une mazarinade sur deux affiche son origine typographique.**
 
-Il note également que ces chiffres varient au cours de la Fronde, si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
+Il note également que ces chiffres varient au cours de la Fronde : si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
