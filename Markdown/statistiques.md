@@ -39,7 +39,8 @@ Les données suivantes ont été calculées après avoir retiré les entrées sa
 
 - 65,2 % des documents (3 294 imprimés) indiquent la ville de publication.
 - 34,8 %  (1 761 imprimés) ne l'indiquent pas.
-
+	- 91 % des mazariandes sont imprimées à Paris.
+	
 Les données suivantes ont été calculées après avoir retiré les entrées sans lieu de publication.
 
 <table class="table table-striped">
