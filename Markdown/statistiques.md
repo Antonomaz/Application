@@ -76,9 +76,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 </tbody>
 </table>
 
-*Seuls les lieux de publication indiqués au moins dix fois ont été retenus.*
-
-*Ces données ont été calculées après avoir retiré les entrées sans lieu de publication.*
+*Seuls les lieux de publication indiqués au moins dix fois ont été retenus. Ces données ont été calculées après avoir retiré les entrées sans lieu de publication.*
 
 ### Nombre de pages
 
@@ -174,6 +172,7 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
 <caption>Présence et absence des adresses typographiques dans les mazarinades (Antonomaz)</caption>
 </table>
 
+
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
 A titre de comparaison, on peut observer les statistiques qu'H. Carrier avait proposées, établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (*La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre*, Genève, Droz, 1991, t. 2, p. 150.). 
@@ -220,6 +219,7 @@ Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes m�
 </tbody>
 <caption>Présence et absence des adresses typographiques dans les mazarinades (Antonomaz)</caption>
 </table>
+
 
 **Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)**
 
