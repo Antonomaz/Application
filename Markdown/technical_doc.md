@@ -44,11 +44,11 @@ Des mots clés sont ajoutés peu à peu, en particulier les sujets, et les genre
 
 L'exemplaire numérique correspond à un exemplaire physique de bibliothèque. Pour autant nous avons choisi d'homogénéiser le nommage des documents en nous référant à la numérotation de Célestin Moreau. Le nom (.txt, .pdf, .xml) et l'URL du document  sont formés ainsi : [identifiants Moreau ou ses suppléments] + [bibliothèque numérique source du fac-simile numérique]. 
 Ainsi, on peut retrouver les identifiants suivants : 
-- Moreau3_MAZ : n° 3 de la Bibliographie Moreau, issus de _Bibnum_ (anciennement _Mazarinum_) ;
-- Moreau1suppl12_GALL : n° 12 du premier supplément de la Bibliographie Moreau, issu de _Gallica_ ;
-- Labadie158_GBOOKS : n° 158 du supplément de Labadie, issu de _GoogleBooks_.
-- BM48896_MAZ: n° BM 48896 de la Base Bibliographique des mazariandes (pour tous les documents non repérés par les bibliographes antérieurs).
-- Antonomaz1_GBOOKS: identifiants par le présent projet, pour les mazarinades non repérées par les autres ressources sus-citées.
+- Moreau3_MAZ : titre n° 3 de la Bibliographie Moreau, document issu de _Bibnum_ (anciennement _Mazarinum_) ;
+- Moreau1suppl12_GALL : titre n° 12 du premier supplément de la Bibliographie Moreau, document issu de _Gallica_ ;
+- Labadie158_GBOOKS : titre n° 158 du supplément de Labadie, document issu de _GoogleBooks_.
+- BM48896_MAZ: n° BM 48896 de la Base Bibliographique des mazarinades (pour tous les documents non repérés par les bibliographes antérieurs), document issu de _Bibnum_  .
+- Antonomaz1_GBOOKS: identifiants Antonomaz, créés  par le présent projet, uniquement pour les mazarinades non repérées par les autres ressources sus-citées. Document issu de _GoogleBooks_.
 
 Il arrive que l'exemplaire numérique disponible en ligne ne corresponde pas exactement à celui décrit par Moreau (il peut s'agir d'une autre édition, ou d'un autre état de la même édition). Aussi le nommage repose-t-il sur une abstraction, qui serait "le" texte ("le" Moreau n°3, abstraction faite de toutes ses différentes manifestations matérielles).
 Il peut en découler une inexactitude dans certains cas, puisque les différentes éditions peuvent comporter des changements plus ou moins importants. En pareil cas, il n'est pas rare que Moreau ait lui-même produit une nouvelle numérotation (dans ses "Suppléments"), auquel cas nous créons aussi un nouvel item quand le document est disponible en ligne. Quand le "supplément" Moreau consistait en un commentaire de sa part, sur un texte semblable, nous n'avons pas retenu l'item du Supplément Moreau.
