@@ -1,0 +1,61 @@
+<app-drawer slot="drawer" align="right">
+<!-- Nous adressons nos remerciements à E. Leblanc (projet Desenrollando el cordel - Université de Genève) pour son aide pour cette partie de l'application. -->
+    <div class="drawer-content">
+        <pb-media-query query="max-width: 1023px">
+            <h3 class="without-slot">
+                <a href="/exist/apps/Antonomaz/home.html" data-template="lib:parse-params">ACCUEIL</a>
+            </h3>
+            
+            <h3 class="without-slot">
+                <a href="/exist/apps/Antonomaz/index.html?collection=corpus" data-template="lib:parse-params">CORPUS</a>
+            </h3>
+                
+            <pb-collapse>
+                <h3 slot="collapse-trigger">
+                    <pb-i18n>RESSOURCES</pb-i18n>
+                </h3>
+                <paper-listbox slot="collapse-content">
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/notices.html?collection=notices" data-template="lib:parse-params">Repères</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/imprimeurs.html?collection=imprimeurs" data-template="lib:parse-params">Les imprimeurs</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/documentation/statistiques.html" data-template="lib:parse-params">Statistiques</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://antonomaz.huma-num.fr/tools/timeline.html" target="_blank" data-template="lib:parse-params">Frise chronologique</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://antonomaz.huma-num.fr/tools/Biblio_Moreau.html" target="_blank" data-template="lib:parse-params">Bibliographie Moreau</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/documentation/bibliography.html" data-template="lib:parse-params">Liens</a>
+                    </paper-item>
+                </paper-listbox>
+            </pb-collapse>
+            
+            <pb-collapse>
+                <h3 slot="collapse-trigger">
+                    <pb-i18n>À PROPOS</pb-i18n>
+                </h3>
+                <paper-listbox slot="collapse-content">
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/about/project.html" data-template="lib:parse-params">Le projet</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/about/technical_documentation.html" data-template="lib:parse-params">Documentation</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/about/acknowledgments.html" data-template="lib:parse-params">Crédits</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/Antonomaz/about/contact.html" data-template="lib:parse-params">Contact</a>
+                    </paper-item>
+                    </paper-listbox>
+            </pb-collapse>
+            
+        </pb-media-query>
+    </div>
+</app-drawer>

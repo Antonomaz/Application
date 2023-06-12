@@ -1,0 +1,405 @@
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Index des mazarinades - Antonomaz</title>
+     <meta name="keywords" content="mazarinade, fronde, Mazarin, XML, corpus, Moreau"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/fonts/polices.css"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script>
+        function show_div() {
+            var x = document.getElementById("infos");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                }
+            }
+    </script>
+    <custom-style>
+        <style>
+            
+            @media (max-width: 1023px) {
+                .doclist {
+                    margin-bottom: 20px;
+                }
+                .documents {
+                    padding-left: 10px;
+                }
+                .documents .label {
+                    display: none;
+                }
+                .toolbar pb-search {
+                    padding-left: 0;
+                }
+                #facets {
+                    display: none;
+                }
+            }
+            
+            .tp-title {
+                font-family: "Hedra", "Oswald", Verdana, "Helvetica", sans-serif;
+                font-size: 36px;
+                font-weight: 400;
+            }
+            
+            .tp-title span {
+                color: #9e9e9e;
+                font-size: 26px;
+                margin-top: 12px;
+            }
+            
+            pb-results {
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 128px);
+            }
+            
+            @media (min-width: 1024px) {
+                .toolbar {
+                    display: none;
+                }
+                .panels {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .panels .doclist {
+                    flex: 2 auto;
+                }
+            }
+            
+            .panels {
+                margin-bottom: 40px;
+            }
+            
+            .panels .doclist {
+                --paper-tabs-selection-bar-color: #607D8B;
+                --paper-tab-content: {
+                    font-family: "Hedra", "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-weight: 400;
+                }
+                ;
+                --paper-card-header: {
+                    background-color: #d1dae0;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Hedra", "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                ;
+            }
+            
+            .panels .doclist .card-content {
+                padding: 0;
+            }
+            
+            .panels .doclist .browse {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0;
+            }
+            
+            #document-list {
+                flex: 2;
+            }
+            
+            
+            .upload-panel {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                min-width: 360px;
+            }
+            
+            aside .upload {
+                --paper-card-header: {
+                    background-color: #607D8B;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Hedra", "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: white;
+                }
+                ;
+            }
+            
+            aside .upload {
+                width: 100%;
+            }
+            
+            .parent-link iron-icon {
+                padding-right: 4px;
+            }
+
+            .parent-link {
+                display: none;
+                margin-bottom: 10px;
+                margin-top: 16px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+
+            .documents ul {
+                list-style: none;
+            }
+            
+            .documents app-toolbar {
+                @apply --layout-start-justified;
+                font-size: 14px;
+                margin-top: 10px;
+                padding-left: 0;
+            }
+            
+            .documents div {
+                margin: 0;
+            }
+            
+            .documents .error {
+                color: #c02020;
+            }
+            
+            .documents a,
+            .documents a:visited {
+                color: #303F9F;
+                text-decoration: none;
+            }
+            
+            .documents li {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+            
+            .documents li:last-child {
+                border: none;
+            }
+            
+            .documents .document-select {
+                flex: 0 0;
+                margin-right: 20px;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Hedra", "Oswald", Verdana, "Helvetica", sans-serif;
+                font-weight: 400 !important;
+                line-height: 1.2;
+            }
+            
+            h3 {
+                font-size: 15px;
+                margin-bottom: 8px
+            }
+            
+            h5 {
+                font-size: 16px;
+                margin: 0;
+            }
+            
+            #facets {
+                flex: 0;
+                min-width: 25%;
+                margin-right: 20px;
+                background-color: #B7BDC0;
+                padding: 10px 10px;
+            }
+            
+            #facets h3 {
+                font-size: 18px;
+                display: flex;
+                flex-direction: row;
+                align-self: center;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+            
+            #facets h3 paper-checkbox {
+                margin-left: 15px;
+                color: white;
+                padding-right: clamp(15px, 5%, 20px);
+                padding-left: clamp(5px, 5%, 15px);
+                font-size: 11px;
+            }
+            
+            
+            #facets table {
+                font-size: 12px;
+            }
+            
+            #facets table table {
+                padding-left: 16px;
+                width: 100%;
+                color: white;
+            }
+            
+            #facets table td {
+                padding: 4px 0;
+            }
+            
+            #facets table td:nth-child(2) {
+                text-align: right;
+                padding-left: 1em;
+                vertical-align: middle;
+            }
+            
+            .help {
+                background-color: #B7BDC0;
+                padding: 10px 10px;
+            }
+            
+            #infos {
+                padding-top: 10px;
+                width: 100%;
+                text-align: justify;
+                display: none;
+            }
+            
+            #infos a {
+                 color: #DF024A;
+            }
+            
+        </style>
+    </custom-style>
+</head>
+<body>
+    <pb-page id="page-container" data-template="pages:pb-page" unresolved="unresolved">
+        <main id="content-wrap">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                <app-header class="menubar" slot="header" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                </app-header>
+                <main>
+                    <section class="panels">
+                        <paper-card class="doclist" data-i18n="[Mazarinades]browse.documents">
+                            <div class="card-content">
+                                    <div class="help">
+                                        <button class="btn btn-secondary" onclick="show_div()">Aide à la recherche</button>
+                                        <div id="infos">
+                                            <div>
+                                            Plusieurs catégories permettent, en plus des éléments à cocher sur le côté, d'affiner votre recherche. On retrouve notamment les catégories suivantes :
+                                            <ul>
+                                                <li>
+                                                        <b>Titre</b> : mots du titre ou titre complet. Il peut bien souvent être une indication du genre du document (lettre, avis, harangue, etc.) ;</li>
+                                                <li>
+                                                        <b>Identifiant</b> : permet une recherche par identifiant (selon les bibliographies habituellement utilisées : Moreau, Labadie, Socard et <a href="https://mazarinades.bibliotheque-mazarine.fr/">Bibliothèque Mazarine</a>) <br/>
+                                                            <small>ex : moreau54, labadie13, moreau1suppl100 ;</small>
+                                                        </li>
+                                                <li>
+                                                        <b>Sujet</b> : permet de faire une recherche au sein des mots-clefs ou thèmes attribués aux documents ;</li>
+                                                <li>
+                                                        <b>Genre</b> : recherche selon les genres (littéraires, rhétoriques, ou genres de discours) - en cours d'attribution ;</li>
+                                                <li>
+                                                        <b>Date</b> : les dates sont au format YYYY et YYYY-MM, permettant ainsi d'affiner la recherche par date (mois et année).<br/>
+                                                        <small>Pour rechercher les libelles publiés en janvier 1649, taper "1649-01" dans le champ "Date".</small>
+                                                    </li>
+                                            </ul>
+                                            <i>NB : les champs de recherche peuvent être renseignés en minuscule ou en majuscule, l'autocomplétion ne se fait néansmoins qu'en minuscule.</i>
+                                            </div>
+                                            <br/>
+                                            <div>
+                                            Concernant les éléments à cocher, quelques précisions utiles :
+                                            <ul>
+                                                <li>
+                                                    <b>Privilège d'impression</b> : les pièces qui présentent un privilège d'impression sont bien souvent des pièces officielles, on trouve cependant aussi de faux privilèges,
+                                                </li>
+                                                <li>
+                                                    <b>Illustrations</b> : on trouve dans quelques mazarinades des portraits (bien souvent réalisés par Moncornet) des personnalités du temps ;
+                                                </li>
+                                                <li>
+                                                    <b>Annotation manuscrite</b> : les annotations manuscrites contemporaines à la publication des textes sont signalées.
+                                                </li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="browse" slot="page">
+                                    <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
+                                    <pb-browse-docs id="document-list" url="api/collection/" sort-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;}, {&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date_rech&#34;}, {&#34;label&#34;: &#34;Identifiant&#34;, &#34;value&#34;: &#34;identifier&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;browse.author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;Identifiant&#34;, &#34;value&#34;: &#34;identifier&#34;}, {&#34;label&#34;: &#34;Imprimeur&#34;, &#34;value&#34;: &#34;publisher_rech&#34;},{&#34;label&#34;: &#34;Sujet&#34;, &#34;value&#34;: &#34;subject&#34;}, {&#34;label&#34;: &#34;Genre&#34;, &#34;value&#34;: &#34;genre_rech&#34;}, {&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date_rech&#34;}]" filter-by="title" filterbylabel="Sélectionner une catégorie" filterplaceholderlabel="Rechercher" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                                        <pb-paginate slot="toolbar" id="paginate" per-page="20" range="5" emit="docs" subscribe="docs"/>
+                                        <pb-restricted login="login" slot="toolbar">
+                                            <pb-ajax emit="docs" url="api/odd" method="post" data-template="lib:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
+                                                <h3 slot="title">
+                                                    <pb-i18n key="odd.manage.regenerate-all"/>
+                                                </h3>
+                                                <paper-icon-button icon="icons:update"/>
+                                            </pb-ajax>
+                                        </pb-restricted>
+                                    </pb-browse-docs>
+                                </div>
+                            </div>
+                        </paper-card>
+                    </section>
+                </main>
+            </app-header-layout>
+        </app-drawer-layout>
+       <paper-dialog id="downloadDialog">
+            <h2>
+                <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
+            </h2>
+            <paper-dialog-scrollable>
+                <pb-i18n key="dialogs.downloadMessage"/>
+            </paper-dialog-scrollable>
+            <div class="buttons">
+                <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                    <pb-i18n key="dialogs.close">Close</pb-i18n>
+                </paper-button>
+            </div>
+        </paper-dialog>
+        <paper-dialog id="errorDialog">
+            <h2>
+                    <pb-i18n key="dialogs.error">Error</pb-i18n>
+                </h2>
+            <paper-dialog-scrollable/>
+            <div class="buttons">
+                <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                    <pb-i18n key="dialogs.close">Close</pb-i18n>
+                </paper-button>
+            </div>
+        </paper-dialog>
+        </main>
+       <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+    </pb-page>
+    <div class="splash"/>
+    <script>
+        const facets = document.getElementById('facets');
+        if (facets) {
+            facets.addEventListener('pb-custom-form-loaded', function(ev) {
+                const elems = ev.detail.querySelectorAll('.facet');
+                elems.forEach(facet =&gt; {
+                    facet.addEventListener('change', () =&gt; {
+                        const table = facet.closest('table');
+                        if (table) {
+                            const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
+                                if (nested != facet) {
+                                    nested.checked = false;
+                                }
+                            });
+                        }
+                        facets.submit();
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>

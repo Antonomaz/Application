@@ -1,0 +1,399 @@
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Antonomaz - corpus numérique de mazarinades publiées sous la Fronde</title>
+    <meta name="description" content="corpus numérique de mazarinades publiées sous la Fronde"/>
+    <meta name="keywords" content="mazarinade, mazarinades, Antonomaz, Fronde, Mazarin, XML, corpus"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="resources/fonts/polices.css"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"/>
+    <custom-style>
+        <style>
+            @media (max-width: 1023px) {
+                main {
+                    margin: 0 8px 0 8px;
+                }
+                .doclist {
+                    margin-bottom: 20px;
+                }
+                .documents {
+                    padding-left: 10px;
+                }
+                .documents .label {
+                    display: none;
+                }
+                .toolbar pb-search {
+                    padding-left: 0;
+                }
+                #facets {
+                    display: none;
+                }
+            }
+            
+            .tp-title {
+                font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                font-size: 36px;
+                font-weight: 400;
+            }
+            
+            .tp-title span {
+                color: #9e9e9e;
+                font-size: 26px;
+                margin-top: 12px;
+            }
+            
+            pb-results {
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 128px);
+            }
+            
+            @media (min-width: 1024px) {
+                .toolbar {
+                    display: none;
+                }
+                .panels {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .panels .doclist {
+                    flex: 2 auto;
+                    margin-right: 20px;
+                }
+            }
+            
+            .panels {
+                margin-bottom: 40px;
+            }
+            
+            .panels .doclist {
+                --paper-tabs-selection-bar-color: #607D8B;
+                --paper-tab-content: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-weight: 400;
+                }
+                ;
+                --paper-card-header: {
+                    background-color: #d1dae0;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                ;
+            }
+            
+            .panels .doclist .card-content {
+                padding: 0;
+            }
+            
+            .panels .doclist .browse {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0;
+            }
+            
+            #document-list {
+                flex: 2;
+                margin-right: 20px;
+            }
+            
+            .upload-panel {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                min-width: 360px;
+            }
+            
+            aside .upload {
+                --paper-card-header: {
+                    background-color: #607D8B;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: white;
+                }
+                ;
+            }
+            
+            aside .upload {
+                width: 100%;
+            }
+            
+            .parent-link iron-icon {
+                padding-right: 4px;
+            }
+
+            .parent-link {
+                display: block;
+                margin-bottom: 10px;
+                margin-top: 16px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+
+            .documents ul {
+                list-style: none;
+            }
+            
+            .documents app-toolbar {
+                @apply --layout-start-justified;
+                font-size: 14px;
+                margin-top: 10px;
+                padding-left: 0;
+            }
+            
+            .documents div {
+                margin: 0;
+            }
+            
+            .documents .error {
+                color: #c02020;
+            }
+            
+            .documents a,
+            .documents a:visited {
+                color: #303F9F;
+                text-decoration: none;
+            }
+            
+            .documents li {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+            
+            .documents li:last-child {
+                border: none;
+            }
+            
+            .documents .document-select {
+                flex: 0 0;
+                margin-right: 20px;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Hedra", sans-serif;
+                font-weight: 400 !important;
+                line-height: 1.2;
+            }
+            
+            h3 {
+                font-size: 15px;
+                margin-bottom: 8px
+            }
+            
+            h5 {
+                font-size: 16px;
+                margin: 0;
+            }
+            
+            #footer {
+                font-family: "Hedra", sans-serif;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                height: 8em;
+                text-align: center;
+                font-size: 1em;
+                margin-top: 1em;
+                color: #642945;
+                background: linear-gradient(135deg, #DF024A, #B7BDC0 40%);
+            }
+            
+            img.carousel_image {
+                display: block;
+                max-width:500;
+                max-height:500px;
+                width: auto;
+                height: auto;
+            }
+            
+        </style>
+    </custom-style>
+
+</head>
+
+<body style="background-color: rgb(212,212,212)">
+    <pb-page id="page-container" data-template="pages:pb-page" unresolved="unresolved">
+        <main id="content-wrap bg-image" style="background-image: url('resources/images/visuels/frondeuse.jpg'); background-attachment: scroll; background-size: cover; height: 87vh">
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header class="menubar" slot="header">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                    </app-header>
+                </app-header-layout>
+            </app-drawer-layout>
+            <!-- Contenu du reste de la page -->
+            <div class="mx-auto mt-3 container">
+                <h1 class="pt-4 pl-5" style="color: #DF024A; font-size: 1.3em;">MAZARINADES : DES ÉCRITS D'ACTUALITÉ PENDANT LA FRONDE</h1>
+                <div style="text-align: justify; position: relative; margin-top: 75vh; background-color: rgb(212,212,212)">
+                    <p style="font-weight: 500">Le projet <b>Antonomaz</b> (ANalyse auTOmatique et NumérisatiOn des MAZarinades) donne accès à un vaste ensemble de "mazarinades": c'est ainsi qu'on appelle traditionnellement les écrits d'actualité produits pendant la Fronde en France, entre 1648 et 1653. Les textes consultables (3065 à ce jour) sont documentés par les métadonnées les plus complètes possibles, et accompagnés de ressources permettant de leur donner du contexte : base de données sur les imprimeurs, fiches repères, frise chronologique, statistiques. Les documents sont principalement issus de trois bibliothèques numériques : <i>Mazarinum</i> (Bibliothèque Mazarine), <i>Gallica</i> (BnF) et <i>Google Books</i> (qui rassemble les collections numérisées d'autres bibliothèques publiques, dont la Bibliothèque municipale de Lyon).</p>
+                </div>
+                <hr/>
+                <div class="row" style="margin-top: 10vh">
+                    <div id="carousel" class="carousel carousel-dark slide col" data-bs-ride="carousel">
+                        <h2>Zoom sur</h2>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau2436_GBOOKS.xml">
+                                <img src="https://ceres.huma-num.fr/iiif/3/antonomaz--Moreau2436_GBOOKS-005/full/max/0/default.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                                <i>La mazarinade</i>, P. Scarron, 1651.</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau1667_GALL.xml">
+                                <img src="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k72774c/f1/full/full/0/native.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>L'horoscope impérial de Louis XIV prédit par l'oracle françois et Michel Nostradamus
+                                            </i>, Paris, 1652.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau1665_GALL.xml">
+                                <img src="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k56760571/f10/full/full/0/native.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>L'horoscope de Jules Mazarin...</i>, Paris, 1649.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau54_GBOOKS.xml">
+                                <img src="https://ceres.huma-num.fr/iiif/3/antonomaz--Moreau54_GBOOKS-002/full/max/0/default.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>Agréable conférence de deux paysans de Saint-Ouen et de Montmorency sur les affaires du temps.</i>, Paris, 1649.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Labadie299_MAZ.xml">
+                                <img src="https://bibnum.institutdefrance.fr/i/?IIIF=/af/f1/3e/6e/aff13e6e-8528-44a2-a364-d74806d40b9e/iiif/751063002_MAZ015043_000000a_0001.tif/full/full/0/default.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>RECIT Veritable du Duel arrivé entre deux soeurs, proche de Bordeaux, l'une pour avoir pris le party et deffendu la Fronde et l'autre l'Espée, dont l'avantage a esté emporté par la belle Frondeuse
+                                            </i>,1650.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau1371_GALL.xml">
+                                <img src="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k58523978/f2/full/full/0/native.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>La famine , ou les Putains à cul, par le sieur de la Valise, chevalier de la Treille.</i>, Paris, 1649.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau856_MAZ.xml">
+                                <img src="https://bibnum.institutdefrance.fr/i/?IIIF=/40/24/e2/c8/4024e2c8-6e72-4afe-9b88-c0338a163b22/iiif/751063002_MAZ010084_000000a_000009.tif/full/full/0/default.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>La custode de la reyne, qui dit tout.</i>, Paris, 1649.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau2808_MAZ.xml">
+                                <img src="https://bibnum.institutdefrance.fr/i/?IIIF=/b6/4f/52/49/b64f5249-7f8f-4c82-8114-be798f3df3f7/iiif/751063002_MAZ014977_000013a_000009.tif/full/full/0/default.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>Le point de l'ovale</i>, Claude Du Bosc de Montandré, [s. l.], 1652.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/corpus/Moreau3573_GALL.xml">
+                                <img src="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5723529c/f2/full/full/0/native.jpg" class="d-block w-75 mx-auto carousel_image" style="object-fit:contain"/>
+                                    <div class="text-center d-none d-md-block my-2">
+                                        <h5>
+                                            <i>Salade en réponse à la Sauce du poulet, par B. B. G.</i>, [s. l.], 1649.
+                                        </h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"/>
+                            <span class="sr-only">Précédent</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"/>
+                            <span class="sr-only">Suivant</span>
+                        </a>
+                    </div>
+                    
+                    <div class="col col-lg-4" style="border-left:1px solid gray;">
+                        <h2>Accès direct</h2>
+                        <ul>
+                            <li>
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/index.html?collection=corpus">Corpus</a>
+                            </li>
+                            <li>
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/notices.html?collection=notices">Repères</a>
+                            </li>
+                            <li>
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/imprimeurs.html?collection=imprimeurs">Base imprimeurs</a>
+                            </li>
+                            <li>
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/documentation/statistiques.html">Statistiques</a>
+                            </li>
+                            <li>
+                                <a href="https://antonomaz.huma-num.fr/exist/apps/Antonomaz/about/project.html">Le projet</a>
+                            </li>
+                        </ul>
+                        <br/>
+                        <h2>Ressources externes</h2>
+                        <ul>
+                            <li>
+                                <a href="https://mazarinades.bibliotheque-mazarine.fr/">Bibliographie des mazarinades, Bibliothèque Mazarine</a>
+                            </li>
+                            <li>
+                                <a href="http://mazarinades.org/">Le projet RIM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+        </main>
+    </pb-page>
+    <div class="splash"/>
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Default single text layout"/>
+        <meta name="pb-template" content="view.html"/>
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/fonts/polices.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"/>
+        <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/> 
+        
+        <style>
+           
+
+            .content-body {
+                position: relative;
+                width: 80%;
+                margin-left: auto;
+                margin: auto;
+            }
+
+            .content-body pb-navigation {
+                position: fixed;
+                bottom: 45%;
+                --paper-fab-background: #35424b;
+                color: white;
+            }
+
+            .content-body pb-navigation[direction=backward] {
+                left: 20px;
+            }
+
+            .content-body pb-navigation[direction=forward] {
+                right: 20px;
+            }
+
+           
+            
+            .mirador {
+                
+                width: 100%;
+                height: 80vh;
+                min-height: 600px;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 15px;
+                
+            }
+            
+            .mirador34{
+                height:32px;
+            }
+            
+            .metadata{
+                text-align:center;
+                padding: 15px;
+                position: relative;
+                min-width: 100%;
+                display: flex;
+            }
+            
+            .metadata p {
+                text-align: justify;
+            }
+            
+            .metadata a {
+                color: #DF024A;
+            }
+            
+            table {
+                width: 100%;
+                margin:auto;
+            }
+            
+            
+            pb-view {
+                margin:auto;
+            }
+            
+            @media (min-width: 769px) {
+                pb-view, pb-view-annotate {
+                max-width: fit-content;
+                }
+            }
+            
+            .button{
+                margin-left: 60%;
+                position: relative;
+                top: -17px;
+            }
+            
+            paper-button{
+                font-size: smaller;
+                background-color: #112948;
+                color: white;
+            }
+            
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            
+            div.top {
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+                z-index: 2;
+            }
+            
+            .info span {
+                display: none; /* On masque l'infobulle. */
+            }
+            
+            .info:hover p {
+                background: none; /* Correction d'un bug d'Internet Explorer. */
+                z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+                cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+            }
+            
+            .info:hover span {
+                display: inline; /* On affiche l'infobulle. */
+                position: absolute;
+                white-space: nowrap; /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+                top: 30px; /* On positionne notre infobulle. */
+                left: 20px;
+                background: white;
+                color: green;
+                padding: 3px;
+                border: 1px solid green;
+                border-left: 4px solid green;
+}
+            
+        </style>
+    </head>
+    
+    <body>
+        <pb-page id="page-container" data-template="pages:pb-page" unresolved="unresolved" style="background-color:#B7BDC0">
+        <main id="content-wrap">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" effects="waterfall" style="background-color: #B7BDC0">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                    </app-header>
+                    
+                    <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                            <h3>
+                                <pb-i18n key="document.contents">Contents</pb-i18n>
+                            </h3>
+                            <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once">
+                                <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                            </pb-load>
+                        </div>
+                    </pb-drawer>
+                    
+                    <main class="content-body px-3 border" style="background-color:white;">
+                        
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title[@type='main']" view="single">
+                            <pb-param name="header" value="metadata"/>
+                        </pb-view>
+                        <br/>
+                        <div class="button">
+                            <a onclick="removeParam()">
+                                <paper-button raised="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                                    </svg>
+                                    <b>Recharger la page</b>
+                                </paper-button>
+                            </a>
+                            <a href="#metadata">
+                                <paper-button raised="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                        </svg>
+                                    <b>Les métadonnées</b>
+                                </paper-button>
+                            </a>
+                            <a href="#text">
+                                <paper-button raised="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                                    </svg>
+                                    <b>Le texte</b>
+                                </paper-button>
+                            </a>
+                        </div>
+                        
+                        <pb-view id="manif" src="document1" xpath="//teiHeader" view="single">
+                            <pb-param name="mode" value="manifest"/>
+                        </pb-view>
+                        <pb-view id="view1" src="document1" view="single" before-update-event="before-javascript-update" subscribe="manifest" emit="manifest"/>
+                        
+                        <div id="my-mirador" class="mirador"/>
+                        
+                        <div class="metadata" id="metadata">
+                            <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single">
+                                <pb-param name="mode" value="metadata"/>
+                            </pb-view>
+                        </div>
+                        <hr/>
+                        <div id="text">
+                            <h3 style="margin-bottom: 50px; text-align: center; font-family: var(--pb-content-font-family); font-weight: bold; font-size: 1.3em; margin-block-start: 1em; margin-block-end: 1em;">Transcription du texte (OCR)<br/>
+                            <small>Le texte contient des scories car il est transcrit automatiquement.<br/>Peu propre à la lecture, il sert essentiellement au repérage des occurrences.</small>
+                            </h3>
+                            <div id="top" class="button top">
+                                <a onclick="removeParam()">
+                                    <paper-button raised="">
+                                            <b>Haut de la page</b>
+                                    </paper-button>
+                                </a>
+                                <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+                                </script>
+                                <script>
+                                    function removeParam() {
+                                        var url = window.location.href
+                                        new_url = url.split('?')[0];
+                                        new_url = new_url.split('#')[0];
+                                        location.replace(new_url)
+                                    }
+                                </script>
+                            </div>
+                            <pb-view class="px-3" id="view2" src="document1" subscribe="transcription" emit="transcription" style="background-color:white; z-index: 1;"/>
+                        </div>
+                        <div class="splash"/>
+                    </main>
+                </app-header-layout>
+            </app-drawer-layout>
+            </main>
+            <!-- BUG SUR L'AFFICHAGE DU FOOTER, A CORRIGER
+            <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/> -->
+        </pb-page>
+        
+        
+    </body>
+    <script type="text/javascript">
+             window.addEventListener('DOMContentLoaded', () =&gt; {
+                pbEvents.subscribe('before-javascript-update', 'manifest', (ev) =&gt; {
+            
+                    // on récupère le contenu de l'attribut href qui contient le lien du manifest et on le stocke dans une variable
+                    let manifest = manif.shadowRoot.getElementById('manifeste').attributes['href'].value
+                    
+
+                    var mirador = Mirador.viewer({
+                    "id": "my-mirador",
+                    language: 'fr',
+                    "manifests": {
+                        manifest // on injecte la variable là où il faut préciser le lien du manifest
+                    },
+                    
+                    window: { 
+                        //global window defaults
+                        allowClose: false, // Configure if windows can be closed or not
+                        allowFullscreen: true, // Configure to show a "fullscreen" button in the WindowTopBar
+                        allowMaximize: false, // Configure if windows can be maximized or not
+                        allowTopMenuButton: true, // Configure if window view and thumbnail display menu are visible or not
+                        allowWindowSideBar: true, // Configure if side bar menu is visible or not
+                        defaultView: 'single',  // Configure which viewing mode (e.g. single, book, gallery) for windows to be opened in
+                        forceDrawAnnotations: false,
+                        hideWindowTitle: true, // Configure if the window title is shown in the window title bar or not
+                        switchCanvasOnSearch: true, // Configure if Mirador should automatically switch to the canvas of the first search result
+                        
+                        views: [
+                        { key: 'single'},
+                        { key: 'scroll'},
+                        { key: 'gallery' },
+                        ],
+                        elastic: {
+                        height: 0,
+                        width: 0
+                        }
+                    },
+                    
+              
+                    "windows": [
+                    {
+                    defaultView: 'single',
+                    "loadedManifest": manifest,
+                    "canvasIndex": 1,
+                    thumbnailNavigationPosition: 'far-bottom',
+                    } 
+                    ],
+                    thumbnailNavigation: {
+                    defaultPosition: 'off', // Which position for the thumbnail navigation to be be displayed. Other possible values are "far-bottom" or "far-right"
+                        displaySettings: true, // Display the settings for this in WindowTopMenu
+                    height: 110, // height of entire ThumbnailNavigation area when position is "far-bottom"
+                   
+                    },
+            
+   
+                });
+              
+                });
+             });
+            </script>
+</html>

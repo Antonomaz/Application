@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Liens - Antonomaz</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="resources/fonts/polices.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <style>
+        .container {
+            max-width: 880px;
+        }
+    </style>
+    </head>
+    
+    <body>
+    <pb-page id="page-container">
+    <main id="content-wrap">
+      <app-drawer-layout force-narrow="force-narrow">
+        <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+        <!-- Cette partie concerne tous les outils de la partie supérieure de la page. -->
+        <app-header-layout>
+            <div class="bg-image" style="background-image: url('resources/images/visuels/notes_musique.jpg'); height: 100vh; background-size: cover;">
+                <app-header class="menubar" slot="header" reveals="reveals" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                </app-header>
+                <div class="container markdown py-4">
+                    <pb-markdown url="https://raw.githubusercontent.com/Antonomaz/Application/main/Markdown/links.md"/>
+                </div>
+            </div>
+        </app-header-layout>
+      </app-drawer-layout>
+      </main>
+      <app-toolbar data-template="templates:include" data-template-path="templates/footer.html"/>
+    </pb-page>
+    </body>
+</html>
