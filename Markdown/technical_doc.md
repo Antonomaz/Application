@@ -4,7 +4,7 @@ Ce projet met à disposition un ensemble d'écrits d'actualité parus en grande 
 
 ## Livres numériques
 
-Il s'agit d'exemplaires numériques moissonnés essentiellement sur *[Gallica](https://gallica.bnf.fr/)*, *[Mazarinum](https://mazarinum.bibliotheque-mazarine.fr/)* et *[GoogleBooks](https://books.google.fr/)*. 
+Il s'agit d'exemplaires numériques moissonnés essentiellement sur *[Gallica](https://gallica.bnf.fr/)*, *[Bibnum](https://bibnum.institutdefrance.fr/)* et *[GoogleBooks](https://books.google.fr/)*. 
 
 Les images de Google Books ont fait l'objet d'un traitement particulier, dans le respect des mentions légales : en effet, il n'est pas rare, sur cette plateforme, que la dernière page du document numérisé soit dupliquée jusqu'à une dizaine de fois, ce qui alourdit le document et rend sa version océrisée très redondante. Ces pages répétées ont donc été supprimées pour que le fac simile numérique soit fidèle à l'objet imprimé.
 
