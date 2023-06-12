@@ -48,7 +48,7 @@ Ainsi, on peut retrouver les identifiants suivants :
 - Moreau1suppl12_GALL : titre n° 12 du premier supplément de la Bibliographie Moreau, document issu de _Gallica_ ;
 - Labadie158_GBOOKS : titre n° 158 du supplément de Labadie, document issu de _GoogleBooks_.
 - BM48896_MAZ: n° BM 48896 de la Base Bibliographique des mazarinades (pour tous les documents non repérés par les bibliographes antérieurs), document issu de _Bibnum_  .
-- Antonomaz1_GBOOKS: identifiants Antonomaz, créés  par le présent projet, uniquement pour les mazarinades non repérées par les autres ressources sus-citées. Document issu de _GoogleBooks_.
+- Antonomaz1_GBOOKS: identifiant Antonomaz n°1, document issu de _GoogleBooks_. Les identifiants Antonomaz sont créés  par le présent projet, uniquement pour les mazarinades non repérées par les autres ressources sus-citées. 
 
 Il arrive que l'exemplaire numérique disponible en ligne ne corresponde pas exactement à celui décrit par Moreau (il peut s'agir d'une autre édition, ou d'un autre état de la même édition). Aussi le nommage repose-t-il sur une abstraction, qui serait "le" texte ("le" Moreau n°3, abstraction faite de toutes ses différentes manifestations matérielles).
 Il peut en découler une inexactitude dans certains cas, puisque les différentes éditions peuvent comporter des changements plus ou moins importants. En pareil cas, il n'est pas rare que Moreau ait lui-même produit une nouvelle numérotation (dans ses "Suppléments"), auquel cas nous créons aussi un nouvel item quand le document est disponible en ligne. Quand le "supplément" Moreau consistait en un commentaire de sa part, sur un texte semblable, nous n'avons pas retenu l'item du Supplément Moreau.
