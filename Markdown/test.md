@@ -1,7 +1,7 @@
 # STATISTIQUES
 
 Vu le nombre important d'entités dans le corpus des mazarinades, il semble utile de proposer quelques exploitations statistiques.
-Nous le faisons à partir de deux jeux de données combinés : les métadonnées issues de la tradition bibliographique (les plus complètes), et celles issues du corpus Antonomaz, moins complètes (2/3 de cet ensemble), mais plus précises sur certains points (présence ou non d'un nom d'auteur et d'un nom d'imprimeur libraire, d'une permission...).
+Nous le faisons à partir de deux jeux de données combinés : les métadonnées issues de la tradition bibliographique (les plus complètes), et celles issues du corpus Antonomaz, moins complètes (2/3 de cet ensemble), mais plus précises sur certains points (présence ou non d'un nom d'auteur et d'un nom d'imprimeur libraire).
 
 [Bibliographies](https://antonomaz.huma-num.fr/tools/Biblio_Moreau.html) [Projet Antonomaz](https://github.com/Antonomaz)
 
@@ -56,7 +56,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
     <td>3 196</td>
   </tr>
   <tr>
-    <th scope="row">%</th>
+    <th scope="row">Pourcentage</th>
     <td>3 %</td>
     <td>91.3 %</td>
     <td>1 %</td>
@@ -105,7 +105,7 @@ Les données suivantes ont été calculées à partir des 4 664 entrées des bib
     <td>3840</td>
   </tr>
   <tr>
-    <th scope="row">%</th>
+    <th scope="row">Pourcentage</th>
     <td>11 %</td>
     <td>6 %</td>
     <td>20 %</td>
@@ -137,95 +137,89 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
 
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: center;">
+    <tr style="text-align: right;">
       <th></th>
-      <th>Nombre de mazarinades</th>
-      <th>%</th>
+      <th>authorship status</th>
+      <th>count</th>
+      <th>percentage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>Auteur nommé</th>
+      <th>0</th>
+      <td>named_author</td>
       <td>1248</td>
-      <td>40.7</td>
+      <td>40.717781</td>
     </tr>
     <tr>
-      <th>Auteur anonyme</th>
+      <th>1</th>
+      <td>unnamed_author</td>
       <td>1747</td>
-      <td>57</td>
+      <td>56.998369</td>
     </tr>
     <tr>
-      <th>Pseudonyme</th>
+      <th>2</th>
+      <td>pseudonym</td>
       <td>70</td>
-      <td>2.3</td>
+      <td>2.283850</td>
     </tr>
   </tbody>
 </table>
 
-À titre de comparaison, on peut observer les statistiques qu'H. Carrier avait proposées, établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (_La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre_, Genève, Droz, 1991, t. 2, p. 150.).
-Il travaille donc sur un échantillon de 1000 écrits, soit 1/5 du corpus global.
+__Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)__
 
-__Carrier estime l’anonymat affiché à 83% des pièces, à quoi il ajoute 7% de cryptonymes.__
+A titre de comparaison, on peut observer les statistiques qu'H. Carrier avait proposées, établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (_La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre_, Genève, Droz, 1991, t. 2, p. 150.).
 
-Ainsi, si on considère comme Carrier l'anonymat affiché, seules 10% de cet échantillon de mazarinades affichent un nom d'auteur, et 90 % effacent leur origine énonciative. Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes même les pièces dont l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). Le chiffre ne reflète donc pas le savoir actuel sur les auteurs de mazarinades, mais est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
+__Il estime l’anonymat à 83% des pièces, à quoi il ajoute 7% de cryptonymes.__
+
+__Seules 10% de cet échantillon de mazarinades affichent donc un nom d'auteur, et 90 % effacent leur origine énonciative.__
+
+Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). 
+
+Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes même les pièces dont l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). Le chiffre ne reflète donc pas le savoir actuel sur les auteurs de mazarinades, mais est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
 __Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)__
 
-55 % de mazarinades inscrivent une adresse typographique complète (environ la même proportion que celle indiquée par Carrier _infra_). Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés. En contrepartie, cet effacement représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
+55 % de mazarinades inscrivent une adresse typographique complète (environ la même proportion que celle indiquée par Carrier _infra_). Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés ; cela représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th scope="col"></th>
-      <th scope="col">Nombre de mazarinades</th>
-      <th scope="col">Pourcentage</th>
+      <th></th>
+      <th>info status</th>
+      <th>count</th>
+      <th>percentage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="col">Imprimeur anonyme</th>
+      <th>0</th>
+      <td>unnamed_publisher</td>
       <td>1390</td>
-      <td>45.3</td>
+      <td>45.350734</td>
     </tr>
     <tr>
-      <th scope="col">Pseudonyme</th>
+      <th>1</th>
+      <td>pseudonym</td>
       <td>4</td>
-      <td>0.15</td>
+      <td>0.130506</td>
     </tr>
     <tr>
-      <th scope="col">Adresse typographique complète</th>
+      <th>2</th>
+      <td>named_publisher+known_pub_date+known_pub_place</td>
       <td>1671</td>
-      <td>54.55</td>
+      <td>54.518760</td>
     </tr>
   </tbody>
 </table>
 
-Sur son échantillon de 1000 mazarinades calibrées en fonction des genres et des années (1/5 du corpus global), H. Carrier calcule que 16 % des mazarinades ne donnent aucune information éditoriale, 31 % affichent le lieu et la date de publication. Enfin, il note que  53 % de ces imprimés ont une adresse typographique complète (lieu, date, nom d'imprimeur), sensiblement la même proportion que pour Antonomaz.
+__Statistiques proposées par H. Carrier (échantillon de 1000 écrits, 1/5 du corpus global)__
+
+Sur son échantillon de 1000 mazarinades calibrées en fonction des genres et des années, H. Carrier calcule que 16 % des mazarinades ne donnent aucune information éditoriale, 31 % affichent le lieu et la date de publication. Enfin, il note que  53 % de ces imprimés ont une adresse typographique complète (lieu, date, nom d'imprimeur), sensiblement la même proportion que pour Antonomaz.
 
 __Globlament donc on peut affirmer qu'une mazarinade sur deux affiche son origine typographique.__
 
-Carrier note également que ces chiffres varient au cours de la Fronde : si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
+Il note également que ces chiffres varient au cours de la Fronde : si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
 
-### Affichage d'un privilège ou d'une permission
-
-Les libelles émanent soit d'officines d'imprimeurs qui agissent clandestinement ou peuvent réponde aux demandes des pouvoirs ayant le contrôle de l'imprimé (pouvoir royal, parlements, voire factions comme celle de Condé ou de Gaston d'Orléans). 
-La grande majorité (3/4) ne sont pas officiellement autorisés et ne mentionnent donc pas de privilège ou de permis d'imprimer ou de vendre. Il est vraisemblable que les mentions "Avec permission de vendre" ne correspondent pas toujours à une autorisation effective des pouvoirs. 
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Nombre total de mazarinades</th>
-      <th>Nombre avec privilège ou permission</th>
-      <th>%</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3065</td>
-      <td>755</td>
-      <td>25</td>
-    </tr>
-  </tbody>
-</table>
