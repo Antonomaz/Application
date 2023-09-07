@@ -199,8 +199,8 @@ Carrier calcule que 53 % de ces imprimés ont une adresse typographique complèt
 
 ### Affichage d'un privilège ou d'une permission
 
-Les libelles émanent soit d'officines d'imprimeurs qui agissent clandestinement ou peuvent réponde aux demandes des pouvoirs ayant le contrôle de l'imprimé (pouvoir royal, parlements, voire factions comme celle de Condé ou de Gaston d'Orléans). 
-La grande majorité (3/4) ne sont pas officiellement autorisés et ne mentionnent donc pas de privilège ou de permis d'imprimer ou de vendre. Il est vraisemblable que les mentions "Avec permission de vendre" ne correspondent pas toujours à une autorisation effective des pouvoirs. 
+Les libelles émanent d'officines d'imprimeurs qui soit agissent plus ou moins clandestinement soit répondent aux demandes des pouvoirs ayant le contrôle de l'imprimé (pouvoir royal, parlements, voire factions comme celle de Condé ou de Gaston d'Orléans). 
+La grande majorité des mazarinades (3/4) ne sont pas officiellement autorisées et ne mentionnent donc pas de privilège ou de permis d'imprimer ou de vendre. Environ un quart des libelles affichent donc une autorisation au sens large (parfois "Avec permission de vendre"), mais il est vraisemblable que plusieurs de ces mentions ne correspondent pas à une autorisation effective des pouvoirs. 
 
 <table border="1" class="dataframe">
   <thead>
