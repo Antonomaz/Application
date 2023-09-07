@@ -66,7 +66,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 ### Nombre de pages
 
-Les données suivantes ont été calculées à partir des 4 664 entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages.
+_Les données suivantes ont été calculées à partir des seules entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages._
 
 <table class="table table-striped">
 <thead>
@@ -161,9 +161,8 @@ Ainsi, si on considère comme Carrier l'anonymat affiché, seules 10% de cet éc
 
 ### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
 
-__Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)__
-
-55 % de mazarinades inscrivent une adresse typographique complète (environ la même proportion que celle indiquée par Carrier _infra_). Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés. En contrepartie, cet effacement représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
+55 % de mazarinades inscrivent une adresse typographique complète (sur l'échantillon Antonomaz soit 2/3 du corpus global).
+Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés. En contrepartie, cet effacement représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
 
 <table border="1" class="dataframe">
   <thead>
