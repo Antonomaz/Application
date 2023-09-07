@@ -124,7 +124,7 @@ Les statistiques ici proposées ne concernent pas la totalité du corpus, comme 
 
 Sur Antonomaz, environ 57  % d’écrits (1747 imprimés) sont non attribuables et 2  % affichent un pseudonyme au sens large : initiales et pseudonymes (70 imprimés).
 
-**Ainsi, un peu plus de la moitié des mazarinades demeurent anonymes.**
+**Ainsi, un peu plus de la moitié des mazarinades ne sont pas attribuables à un auteur.**
 
 Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document), l'imprimé n'est pas compté comme anonyme.
 
