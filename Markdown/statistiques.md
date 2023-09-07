@@ -67,7 +67,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 ### Nombre de pages
 
-_Les données suivantes ont été calculées à partir des seules entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages._
+**Presque la moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).**
 
 <table class="table table-striped">
 <thead>
@@ -115,7 +115,8 @@ _Les données suivantes ont été calculées à partir des seules entrées des b
 </tbody>
 </table>
 
-**Presque la moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).**
+_Les données suivantes ont été calculées à partir des seules entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages._
+
 
 ### Taux d'anonymat
 
