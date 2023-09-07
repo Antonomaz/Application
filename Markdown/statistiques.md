@@ -16,7 +16,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 - 88 % des documents (4460 imprimés) indiquent une date de publication.
 - 12 % environ (602 imprimés) n'en indiquent pas.
-        - 63 % environ des mazarinades (3198 imprimés) ont été publiées pendant les deux années les plus productives : 1649 et 1652.
+- 63 % environ des mazarinades (3198 imprimés) ont été publiées pendant les deux années les plus productives : 1649 et 1652.
 
 
 <table class='table table-striped'>
@@ -30,7 +30,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 
 - 65,2 % des documents (3 294 imprimés) indiquent la ville de publication.
 - 34,8 %  (1 761 imprimés) ne l'indiquent pas.
-        - 91 % des mazariandes sont imprimées à Paris.
+- 91 % des mazariandes sont imprimées à Paris.
 
 
 <table class="table table-striped">
