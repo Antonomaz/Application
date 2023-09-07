@@ -194,11 +194,9 @@ __Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)__
   </tbody>
 </table>
 
-Sur son échantillon de 1000 mazarinades calibrées en fonction des genres et des années (1/5 du corpus global), H. Carrier calcule que 16 % des mazarinades ne donnent aucune information éditoriale, 31 % affichent le lieu et la date de publication. Enfin, il note que  53 % de ces imprimés ont une adresse typographique complète (lieu, date, nom d'imprimeur), sensiblement la même proportion que pour Antonomaz.
-
 __Globlament donc on peut affirmer qu'une mazarinade sur deux affiche son origine typographique.__
 
-Carrier note également que ces chiffres varient au cours de la Fronde : si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
+Carrier calcule que 53 % de ces imprimés ont une adresse typographique complète (lieu, date, nom d'imprimeur), soit sensiblement la même proportion que sur le corpus trois fois plus grand d'Antonomaz. Il note également que ces chiffres varient au cours de la Fronde : si 64% des mazarinades de l'échantillon étudié présentent une adresse typographique complète en 1649, ils ne sont plus que 38% en 1652.
 
 ### Affichage d'un privilège ou d'une permission
 
