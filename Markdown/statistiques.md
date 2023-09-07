@@ -5,19 +5,14 @@ Nous le faisons à partir de deux jeux de données combinés : les métadonnée
 
 [Bibliographies](https://antonomaz.huma-num.fr/tools/Biblio_Moreau.html) [Projet Antonomaz](https://github.com/Antonomaz)
 
-## Calculs à partir des bibliographies anciennes (environ 5060 mazarinades recensées)
+###  Dates de publication
 
 En exploitant les données issues des bibliographies du XIXe siècle, à savoir celles de C. Moreau, E. Labadie et E. Socard, il est possible de proposer quelques premières statistiques.
 
 *N.B. : les données exploitées sont consultables à [cette adresse](https://antonomaz.huma-num.fr/tools/Biblio_Moreau.html). Elles comportent 5 055 entrées et ont été préalablement nettoyées, des erreurs peuvent cependant encore s'y trouver (notamment des doublons en raison des suppléments publiés par C. Moreau).*
-
-
-###  Dates de publication
-
 - 88 % des documents (4460 imprimés) indiquent une date de publication.
 - 12 % environ (602 imprimés) n'en indiquent pas.
 - 63 % environ des mazarinades (3198 imprimés) ont été publiées pendant les deux années les plus productives : 1649 et 1652.
-
 
 <table class='table table-striped'>
 <tr><th scope='col'></th><th scope='col'>1648</th><th scope='col'>1649</th><th scope='col'>1650</th><th scope='col'>1651</th><th scope='col'>1652</th><th scope='col'>1653</th><th scope='col'>1654</th><th scope='col'>Après 1654</th><th scope='col'>Sans Date</th></tr>
@@ -123,15 +118,13 @@ Les données suivantes ont été calculées à partir des 4 664 entrées des bib
 <br/>
 <hr/>
 
-## Calcul à partir de l'échantillon Antonomaz (3065 mazarinades, 2/3 des mazarinades connues)
-
-Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 000 documents.
-
 ### Taux d'anonymat
 
-__Statistiques sur l'échantillon Antonomaz (2/3 du corpus global)__
+Les statistiques ici proposées ne concernent pas la totalité du corpus, comme c'est le cas dans la partie précédente, mais uniquement les mazarinades qui composent le corpus du projet Antonomaz, c'est-à-dire celles trouvées dans les bibliothèques numériques accessibles, soit un peu plus de 3 065 documents (2/3 des mazarinades connues)
 
-Sur Antonomaz, environ 57  % d’écrits (1747 imprimés) sont sans nom d'auteurs, 2  % affichent un pseudonyme au sens large : initiales et pseudonymes (70 imprimés).
+Sur Antonomaz, environ 57  % d’écrits (1747 imprimés) sont non attribuables et 2  % affichent un pseudonyme au sens large : initiales et pseudonymes (70 imprimés).
+
+**Ainsi, un peu plus de la moitié des mazarinades demeure anonymes.**
 
 Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur le document), l'imprimé n'est pas compté comme anonyme.
 
@@ -162,8 +155,7 @@ Dès que nous avons pu identifier l'auteur (même si ce n'est pas explicite sur 
   </tbody>
 </table>
 
-À titre de comparaison, on peut observer les statistiques qu'H. Carrier avait proposées, établies sur un ensemble "d'un millier de mazarinades prises au hasard", où "les différents genres et années de publication se trouvent équitablement répartis" par H. Carrier (_La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre_, Genève, Droz, 1991, t. 2, p. 150.).
-Il travaille donc sur un échantillon de 1000 écrits, soit 1/5 du corpus global.
+À titre de comparaison, on peut observer les statistiques qu'H. Carrier avait proposées, établies sur un échantillon raisonné d'environ 1000 mazarinades (où "les différents genres et années de publication se trouvent équitablement répartis") (_La Presse de la Fronde (1648-1653): Les mazarinades. Les hommes du livre_, Genève, Droz, 1991, t. 2, p. 150.). Il travaille donc sur un échantillon de 1000 écrits, soit 1/5 du corpus global.
 
 __Carrier estime l’anonymat affiché à 83% des pièces, à quoi il ajoute 7% de cryptonymes.__
 
