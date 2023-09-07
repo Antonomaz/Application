@@ -114,9 +114,6 @@ Les données suivantes ont été calculées à partir des 4 664 entrées des bib
 </tbody>
 </table>
 
-<br/>
-<hr/>
-
 **Presque la moitié des mazarinades comportent 7-8 pages (2 cahiers), et 11 % comportent 4 pages (1 cahier).**
 
 ### Taux d'anonymat
