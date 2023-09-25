@@ -161,7 +161,7 @@ __Carrier estime l’anonymat affiché à 83% des pièces, à quoi il ajoute 7% 
 
 Ainsi, si on considère comme Carrier l'anonymat affiché, seules 10% de cet échantillon de mazarinades affichent un nom d'auteur, et 90 % effacent leur origine énonciative. Il exclut les pièces officielles types actes royaux, mais aussi "lettres authentiques, manifestes et déclarations des principaux personnages de l’État", problablement parce qu'il estime qu'elles sont évidemment attribuées et que la question de l'auteur n'a pas d'intérêt (_ibid._, p. 77). Son chiffre rend donc compte de l'anonymat affiché (il compte comme anonymes même les pièces dont l'auteur nous est connu par le contexte, et pouvait l'être, parfois évidemment, par les contemporains). Le chiffre ne reflète donc pas le savoir actuel sur les auteurs de mazarinades, mais est un très bon indicateur de l'effet d'anonymat massif produit par ces imprimés.
 
-### Taux d'anonymat typographique (noms d'imprimeur-libraire indiqués ou non)
+### Taux d'anonymat éditorial (noms d'imprimeur-libraire indiqués ou non)
 
 55 % de mazarinades inscrivent une adresse typographique complète (sur l'échantillon Antonomaz soit 2/3 du corpus global).
 Pour les 45 % imprimés restants, on peut penser que c'est par prudence que ni le nom ni l'adresse des imprimeurs-libraires ne sont affichés. En contrepartie, cet effacement représentait un risque commercial puisque l'acheteur ne pouvait pas identifier le lieu où se procurer le libelle.
