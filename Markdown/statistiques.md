@@ -63,7 +63,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 </tbody>
 </table>
 
-*Seuls les lieux de publication indiqués au moins dix fois ont été retenus. Ces données ont été calculées après avoir retiré les entrées sans lieu de publication.*
+*Seuls les lieux de publication indiqués au moins dix fois ont été retenus. C'est pourquoi le total n'est pas à 100%. Ces données ont été calculées après avoir retiré les entrées sans lieu de publication.*
 
 ### Nombre de pages
 
@@ -115,7 +115,7 @@ En exploitant les données issues des bibliographies du XIXe siècle, à savoir 
 </tbody>
 </table>
 
-_Les données suivantes ont été calculées à partir des seules entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages._
+_Les données suivantes ont été calculées à partir des seules entrées des bibliographies Moreau (et suppléments) qui indiquent un nombre de pages. Seuls les cas de figure les plus fréquents ont été retenus ici, c'est pourquoi le total n'est pas à 100 %._
 
 
 ### Taux d'anonymat
