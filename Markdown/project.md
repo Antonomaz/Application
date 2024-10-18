@@ -28,6 +28,7 @@ Les documents ont tous été dotés d'un manifest IIIF (International Image Inte
 
 ### Stagiaires : 
 
+- Marie-Sophie Desmarets, Sorbonne Université/CERES, 2023.
 - Margaux Faure (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022.
 - Zoé Cappe (M2 Technologies numériques appliquées à l'histoire, École nationale des chartes), 2022.
 - Amélie Hip (M2 Informatique, Sorbonne) vacataire, 2021.
