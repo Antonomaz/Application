@@ -22,6 +22,5 @@ de la Bibliothèque Mazarine.
 * Collection de mazarinades, en partie numérisées à l'[université d'Utrecht](https://objects.library.uu.nl/reader/index.php?obj=1874-362745&lan=en#page//11/37/98/1137982617693477766839687527466063178.jpg/mode/1up).
 * [Chansons et poésies satiriques du 17e siècle](https://satires17.univ-st-etienne.fr).
 * Projet ["Desenrollando el cordel/Démêler le cordel"](https://desenrollandoelcordel.unige.ch/inicio.html), imprimés de large diffusion au 19e siècle. 
-* La [Gazette de Renaudot](https://www.unicaen.fr/gazette/index.php).
-* La [Bibliothèque Bleue](https://artflsrv03.uchicago.edu/philologic4/bibbleue) de Troyes.
+* La [Bibliothèque Bleue] de Troyes (https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=catalogue-patrimoine-numerise-bbl)
 * Les [*Nouvelles nouvelles*](http://nouvellesnouvelles.yale.edu/index.php) de Donneau de Visé.
