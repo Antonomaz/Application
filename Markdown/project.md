@@ -66,3 +66,4 @@ https://publications-prairial.fr/pratiques-et-formes-litteraires/
 * 2021 :  Karine Abiven, Jean-Baptiste Tanguy et Gaël Lejeune, « Exploiter un corpus de données textuelles sans post-traitement : l’écriture burlesque de la Fronde », Revue Humanités numériques, n° 4. [En ligne](https://journals.openedition.org/revuehn/2355
   
 * 2021 : Karine Abiven et Gaël Lejeune, « Des données au corpus : l’exploitation numérique des mazarinades », 10 ans du consortium CAHIER, actes du colloque des 7-12 juin 2021, Bordeaux, Éditions des Archives contemporaines, 2021, p. 181-192.
+  
