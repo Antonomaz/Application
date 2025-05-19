@@ -2,7 +2,7 @@
 
 ## Présentation du projet 
 
-Le projet **Antonomaz** - Mazarinades en ligne (ANalyse auTOmatique et NumérisatiOn des MAZarinades) donne accès à un vaste ensemble de *mazarinades*. Ces écrits parus pendant la Fronde, presque toujours brefs et souvent polémiques, visent les personnalités politiques du temps : Mazarin, mais aussi le Prince de Condé, ou le Parlement par exemple, car ils émanent de tous les camps politiques. Ils peuvent aussi simplement relater des faits d'actualité. Imprimés pour la plupart, ils ont représenté une explosion de la production de petits livres dans le monde de la librairie du 17e siècle.
+Le projet **Antonomaz - Mazarinades en ligne** (ANalyse auTOmatique et NumérisatiOn des MAZarinades) donne accès à un vaste ensemble de *mazarinades*. Ces écrits parus pendant la Fronde, presque toujours brefs et souvent polémiques, visent les personnalités politiques du temps : Mazarin, mais aussi le Prince de Condé, ou le Parlement par exemple, car ils émanent de tous les camps politiques. Ils peuvent aussi simplement relater des faits d'actualité. Imprimés pour la plupart, ils ont représenté une explosion de la production de petits livres dans le monde de la librairie du 17e siècle.
 
 Le présent site donne accès à plus de 3000 documents qui représentent environ les 2/3 des entités repérées comme "mazarinades" (5 000 à 6 000 entités, en tout, à raison de plusieurs centaines d'exemplaires par édition). 
 Les documents ont été océrisés et encodés en XML-TEI, dans une archive disponible en *open source* ici : https://doi.org/10.5281/zenodo.7443183
@@ -40,7 +40,7 @@ Les documents ont tous été dotés d'un manifest IIIF (International Image Inte
 
 ## Publications
 
-* 2026: Karine Abiven : __Sur l'air de la Fronde. Chansons d'actualité et guerre civile (1648-1661)_, Ceyzérieu, Champ Vallon, 2026.
+* 2026: Karine Abiven : _Sur l'air de la Fronde. Chansons d'actualité et guerre civile (1648-1661)_, Ceyzérieu, Champ Vallon, 2026.
   
 * Karine Abiven, « Des pasquinades aux mazarinades. Imaginaire de la parrêsia dans les libelles politiques de la Fronde », dans O. Guerrier et J.-L. Nardone (dir.), Parrêsia et civilité entre France et Italie, Renaissance – XVIIe siècle, Classiques Garnier, à paraitre en 2025.
 
