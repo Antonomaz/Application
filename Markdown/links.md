@@ -3,7 +3,7 @@
 ## Les ressources liées au projet
 
 * [La bibliographie Moreau en ligne](https://antonomaz.huma-num.fr/tools/Biblio_Moreau.html) : version transcrite automatiquement (non corrigée) et interrogeable par mots-clés des *Bibliographies* de C. Moreau, E. Labadie, E. Socard, et des items inédits de la base Bibliographique de la Bibliothèque Mazarine.
-* [L'enregistrement des chansons produites pendant la Fronde] (https://webtv.univ-rouen.fr/channels/#sur-lair-de-la-fronde-karine-abiven-mp3), par K. Abiven.
+* [L'enregistrement des chansons produites pendant la Fronde](https://webtv.univ-rouen.fr/channels/#sur-lair-de-la-fronde-karine-abiven-mp3), par K. Abiven.
 * [Le GitHub](https://github.com/Antonomaz) du projet présente l'ensemble des données produites par et pour le projet, et notamment l'ensemble des [textes](https://github.com/Antonomaz/corpus) en XML-TEI.
 * [Le corpus en *open source*](https://doi.org/10.5281/zenodo.7443183), dans une archive Zenodo.
 * [Le wiki du projet Antonomaz](http://stih-sorbonne-universite.fr/dokuwiki/doku.php?id=antonomaz), pour suivre son historique.
