@@ -15,7 +15,7 @@ Les documents ont tous été dotés d'un manifest IIIF (International Image Inte
 
 ### Responsables du projet : 
 
-- [**Karine Abiven**](https://orcid.org/0000-0001-9518-1040), Enseignante chercheuse en langue et littérature françaises, Sorbonne Université.
+- [**Karine Abiven**](https://orcid.org/0000-0001-9518-1040), Enseignante chercheuse en langue et littérature françaises, Université Rouen Nomrandie.
 - [**Gaël Lejeune**](https://www.lejeunegael.fr/), Enseignant chercheur  en informatique, Sorbonne Université.
 
 ### Contributeurs :
