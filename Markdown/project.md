@@ -7,7 +7,7 @@ Le projet **Antonomaz - Mazarinades en ligne** (ANalyse auTOmatique et Numérisa
 Le présent site donne accès à plus de 3000 documents qui représentent environ les 2/3 des entités repérées comme "mazarinades" (5 000 à 6 000 entités, en tout, à raison de plusieurs centaines d'exemplaires par édition). 
 Les documents ont été océrisés et encodés en XML-TEI, dans une archive disponible en *open source* lemmatisé et annoté morphosyntaxiquement, ici :
 https://zenodo.org/records/20511032.
-avec des métadonnées précises ici : https://doi.org/10.5281/zenodo.7443183
+Voir aussi le corpus en texte seul ici : https://doi.org/10.5281/zenodo.7443183
 
 Il est possible de feuilleter les documents sous leur format image, ou de faire des recherches directement dans le texte. L'utilisateur peut aussi rassembler des séries de documents selon leur auteur, leur imprimeur, des mots de leur titre, leur date, etc., pour faire des corpus cohérents selon ses intérêts de recherche. Des notices donnent des informations historiques pour mieux comprendre ces textes ancrés dans leur actualité et qui nécessitent une connaissance du contexte pour être compris.
 
